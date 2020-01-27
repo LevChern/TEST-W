@@ -1,0 +1,848 @@
+
+{
+	"test":
+	{
+	"assessmentItem":
+	[
+
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Корневой элемент DOM-дерева страницы в JavaScript: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "infinity"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "document"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "window"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "arguments"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "object"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Метод DOM для установки значения атрибута: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "setAttribute"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "set_Attribute"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "setattribute"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "getAttribute"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "get-Attribute"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Метод DOM для получения значения атрибута… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "getAttribute"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "get_Attribute"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "getattribute"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "setAttribute"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "getatt"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Метод DOM для проверки существования атрибута… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "hasAttribute"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "isAttribute"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "has_Attribute"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "existsAttribute"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "isAttribute"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Методы DOM для удаления атрибута: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "removeAttribute"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "removeAttributeNode"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "deleteAttribute"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "delAttribute"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "removeattribute"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Псевдо-массив, хранящий все дочерние элементы в DOM… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "childNodes"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "childNode"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Allchild"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "AllChild"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "childnodes"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Свойство в DOM для доступа к первому элементу… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "firstChild"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "first_Child"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "FirstChild"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "firstchild"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "first-child"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Свойство в DOM для доступа к последнему элементу… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "lastChild"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "last_Child"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "lastchild"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "last_child"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "last-child"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Свойство в DOM для доступа к элементам слева… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "previousSibling"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "previousElement"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "previous_Element"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "PreviousElement"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Previouselement"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Свойство в DOM для доступа к элементам справа… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "nextSibling"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "nextElement"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "next_element"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "NextSibling"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Next-Sibling"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "DOM - это… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Data Object Model"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Document Open Model"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Document Object Model"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Data Open Model"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Document Object Modification"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Типы документов, к которым программный интерфейс DOM позволяет получить доступ к содержимому: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "HTML"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "XHTML"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "XML"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "DOC"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "DOCX"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Согласно DOM-модели, документ является… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Иерархией"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Списком"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Таблицей"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Набором данных"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Набором узлов"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Внешний тег DOM-модели… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;head_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;body_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;title_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;html_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;dom_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Непосредственными потомками узла _lt;html_gt; в DOM являются: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;body_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;ol_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;title_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;head_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;table_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Любой доступ и изменения DOM берут свое начало от объекта… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "file"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "node"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "tree"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "document"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "doc"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Количество типов элементов в DOM… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "4"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "10"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "12"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "16"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "9"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Свойство DOM-элементов, которое содержит весь HTML-код внутри узла… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "className"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "innerHTML"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "tagName"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "style"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "ownerHTML"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Средства поиска элемента в DOM: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "getElementById"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "getElementsByTagName"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "getElementsByName"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "getElementsByTag"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "getElementsByElement"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Верные утверждения: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "DOM-модель — это внутреннее представление HTML-страницы в виде дерева"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Все элементы страницы, включая теги, текст, комментарии, являются узлами DOM"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "У элементов DOM есть свойства и методы, которые позволяют изменять их"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "IE8 генерирует пробельные узлы"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "IE8 генерирует недостающие узлы"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Основные типы узлов в DOM: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Документы"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Элементы"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Текстовые узлы"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Комментарии"
+	}					
+		]
+	}
+	}
+	} 
+	]
+	}
+}

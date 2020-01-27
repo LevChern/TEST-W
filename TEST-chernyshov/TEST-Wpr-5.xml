@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tests tema='TEST-chernyshov/TEST-Wpr-5'>
+Задание 501.Чернышов Л.Н.
+<assessmentItem number='501' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Метод элемента window для выдачи сообщений (DOM-модель HTML-документа) … </prompt>
+      <simpleChoice identifier='ChoiceA'>alert</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>message</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>show</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>showmessage</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>write</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 502.Чернышов Л.Н.
+<assessmentItem number='502' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Оператор JavaScript, выполняющий не только математические операции… </prompt>
+      <simpleChoice identifier='ChoiceA'>%</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>/</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>+</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>-</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_gt;_gt;_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 503.Чернышов Л.Н.
+<assessmentItem number='503' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>События JavaScript, вызываемое кликом мыши: </prompt>
+      <simpleChoice identifier='ChoiceA'>onfocus</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>onclick</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>onkeydown</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>onmousedown</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>onkeyup</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 504.Чернышов Л.Н.
+<assessmentItem number='504' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Для соответствия стандарту XHTML 1.0 коды скриптов заключаются в секцию… </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;![CDATA[ ... ]]_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;[CDATA[ ... ]]_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;!CDATA ... ]_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;![CDATA[ ... ]_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;![SCRIPT[ ... ]]_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 505.Чернышов Л.Н.
+<assessmentItem number='505' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Подключение внешнего js-файла, отсутствующего на странице, возможно… </prompt>
+      <simpleChoice identifier='ChoiceA'>только один раз</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>только до загрузки страницы</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>сколько угодно раз</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>только после загрузки страницы</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>не более двух раз  противоречит формулировке</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 506.Чернышов Л.Н.
+<assessmentItem number='506' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Результат выполнения операторов a = new Array(1,2,3);b = new Array(1,2,3);echo(a==b) … </prompt>
+      <simpleChoice identifier='ChoiceA'>истина</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>ложь</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>зависит от множества случайных обстоятельств</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>код выдаст ошибку</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>неопределенное значение</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 507.Чернышов Л.Н.
+<assessmentItem number='507' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceC</value>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Неудачная формулировка. Вводите в заблуждение, используя ед.число в формулировке при нескольких верных дистракторах. Фрагменты кода для вывода приветствия через 5 секунд после запуска скрипта: </prompt>
+      <simpleChoice identifier='ChoiceA'>sleep(5); alert(_quot;Привет!_quot;);</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>sleep(5000); alert(_quot;Привет!_quot;);</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>setTimeout('alert(_quot;Привет!_quot;)', 5000);</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>setTimeout(function() {alert(_quot;Привет!_quot;)}, 5000);</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>setTimeout(function() {alert(_quot;Привет!_quot;)}, 5);</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 508.Чернышов Л.Н.
+<assessmentItem number='508' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Место, где может располагаться тег «script» по стандарту HTML… </prompt>
+      <simpleChoice identifier='ChoiceA'>Только в HEAD</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Только в BODY</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>В HEAD или в BODY</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Где угодно, главное чтоб был</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Ни в HEAD, ни в BODY</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 509.Чернышов Л.Н.
+<assessmentItem number='509' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceD</value>
+      <value>ChoiceE</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Задание 510.«50/50» ЗАПРЕЩЕНЫ Фрагменты кода корректного задания массива из элементов _quot;a_quot;, _quot;b_quot;: </prompt>
+      <simpleChoice identifier='ChoiceA'>var a = new Array(_quot;a_quot;,_quot;b_quot;)</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>var a = { _quot;a_quot;, _quot;b_quot; }</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>var a = ( _quot;a_quot;, _quot;b_quot; )</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>var a = [ _quot;a_quot;, _quot;b_quot; ]</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>var a = _quot;a,b_quot;.split(',')</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 511.Чернышов Л.Н.
+<assessmentItem number='511' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Варианты, правильно объявляющие переменную для f, возвращающую сумму двух аргументов: </prompt>
+      <simpleChoice identifier='ChoiceA'>var f = function(a,b) { return a+b }</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>var f = new Function('a,b', 'return a+b')</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>var f = new Function('a', 'b', 'return a+b')</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>var f = new function('a,b', 'return a+b')</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>var f = new function('a', 'b', 'return a+b')</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 512.Чернышов Л.Н.
+<assessmentItem number='512' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Количество параметров при вызове функции JavaScript… </prompt>
+      <simpleChoice identifier='ChoiceA'>Ровно столько, сколько указано в определении функции</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Сколько указано в определении функции или меньше</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>Сколько указано в определении функции или больше</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Любое количество</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Не более двух</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 513.Чернышов Л.Н.
+<assessmentItem number='513' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Арифметическая операция, приводящая к ошибке в javascript… </prompt>
+      <simpleChoice identifier='ChoiceA'>Деление на ноль</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Умножение числа на строку</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>Корень из отрицательного числа</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Операция возведения в степень Math.power(4,2)</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Деление на единицуь</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 514.Чернышов Л.Н.
+<assessmentItem number='514' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Значение a.length после выполнения кода var a = [];a[1] = 5;a[3] = 53;delete a[3] … </prompt>
+      <simpleChoice identifier='ChoiceA'>1</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>2</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>3</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>4</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>-1</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 515.Чернышов Л.Н.
+<assessmentItem number='515' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Оператор === выполняет операцию… </prompt>
+      <simpleChoice identifier='ChoiceA'>Приравнивает переменную указанному значению</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Сравнивает по ссылке, а не по значению</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>Сравнивает без приведения типа</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Приравнивает переменную пустому значению  противоречит формулировке</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Сравнивает по значению, а не по ссылке</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 516.Чернышов Л.Н.
+<assessmentItem number='516' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Значение переменной i после выполнения кода var i = 5;{var i = 1}… </prompt>
+      <simpleChoice identifier='ChoiceA'>1</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>5</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>0</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>NaN</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>-1</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 517.Чернышов Л.Н.
+<assessmentItem number='517' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Значение name в результате выполнения кода name = _quot;пупкин_quot;.replace(_quot;п_quot;,_quot;д_quot;… </prompt>
+      <simpleChoice identifier='ChoiceA'>дудкин</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>дупкин</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>пупкин</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>дукпин</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>пудкин</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 518.Чернышов Л.Н.
+<assessmentItem number='518' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Значение выражения a+b+c после a = 1;var b = {toString:function(){return '1'}};var c=Object(1) … </prompt>
+      <simpleChoice identifier='ChoiceA'>11[object Object]</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>2[object Object]</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>111</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>3</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>1[object Object]</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 519.Чернышов Л.Н.
+<assessmentItem number='519' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Названия переменных в JavaScript могут включать в себя: </prompt>
+      <simpleChoice identifier='ChoiceA'>Буквы</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Подчёркивание</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>Символ доллара</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Арабские цифры</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Римские цифры</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 520.Чернышов Л.Н.
+<assessmentItem number='520' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Символ, с которого могут начинаться имена переменных в языке в JavaScript: </prompt>
+      <simpleChoice identifier='ChoiceA'>Буква</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Подчеркивание</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>Цифра</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Символ доллара</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Символ “-”</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 521.Чернышов Л.Н.
+<assessmentItem number='521' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Добавление JavaScript-кода на страницу осуществляется тегами… </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;script_gt; и _lt;/ script_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;js_gt; и _lt;/js_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;java_gt; и _lt;/java_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;java script_gt; и _lt;/java script_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;head_gt; и _lt;/head_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 522.Чернышов Л.Н.
+<assessmentItem number='522' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Однострочные комментарии в JavaScript обозначаются символом… </prompt>
+      <simpleChoice identifier='ChoiceA'>--</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;!--_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>//</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>##</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>$</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 523.Чернышов Л.Н.
+<assessmentItem number='523' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Числовой тип в языке JavaScript… </prompt>
+      <simpleChoice identifier='ChoiceA'>integer</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>number</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>int</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>double</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>float</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 524.Чернышов Л.Н.
+<assessmentItem number='524' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Синтаксическая конструкция JavaScript, добавляющая новую область видимости… </prompt>
+      <simpleChoice identifier='ChoiceA'>var</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>with</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>while</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>throw</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>continue</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 525.Чернышов Л.Н.
+<assessmentItem number='525' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Ключевое слово JavaScript для объявления переменной в текущей области видимости… </prompt>
+      <simpleChoice identifier='ChoiceA'>local</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>with</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>var</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>for</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>break</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 526.Чернышов Л.Н.
+<assessmentItem number='526' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Функция JavaScript, позволяющая выполнить код, переданный ей в виде строки… </prompt>
+      <simpleChoice identifier='ChoiceA'>alert</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>prompt</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>confirm</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>eval</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>encodeURL</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 527.Чернышов Л.Н.
+<assessmentItem number='527' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Функция вывода модального окна с сообщением в JavaScript… </prompt>
+      <simpleChoice identifier='ChoiceA'>confirm</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>alert</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>eval</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>prompt</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>isFinite</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 528.Чернышов Л.Н.
+<assessmentItem number='528' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Функции вывода модального окна для диалога с пользователем в JavaScript: </prompt>
+      <simpleChoice identifier='ChoiceA'>confirm</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>alert</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>eval</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>prompt</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>isFinite</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 529.Чернышов Л.Н.
+<assessmentItem number='529' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceB</value>
+      <value>ChoiceE</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Правильный синтаксис создания массива в JavaScript: </prompt>
+      <simpleChoice identifier='ChoiceA'>var mas=()</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>var mas=[]</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>var mas={1,2,3}</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>var mas={}</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>var mas=[1,2,3]</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 530.Чернышов Л.Н.
+<assessmentItem number='530' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Оператор сложения строк в JavaScript… </prompt>
+      <simpleChoice identifier='ChoiceA'>.</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>+</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>&amp;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>@</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>#</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 531.Чернышов Л.Н.
+<assessmentItem number='531' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Число конструкций для циклов в javascript… </prompt>
+      <simpleChoice identifier='ChoiceA'>Только две: for и while.</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Только одна: for</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>Три: for, while и do...while</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Только одна: while</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Только while и do...while</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+</tests>

@@ -1,0 +1,1210 @@
+
+{
+	"test":
+	{
+	"assessmentItem":
+	[
+
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Метод элемента window для выдачи сообщений (DOM-модель HTML-документа) … ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "alert"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "message"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "show"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "showmessage"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "write"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Оператор JavaScript, выполняющий не только математические операции… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "%"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "/"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "+"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "-"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_gt;_gt;_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "События JavaScript, вызываемое кликом мыши: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "onfocus"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "onclick"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "onkeydown"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "onmousedown"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "onkeyup"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Для соответствия стандарту XHTML 1.0 коды скриптов заключаются в секцию… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;![CDATA[ ... ]]_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;[CDATA[ ... ]]_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;!CDATA ... ]_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;![CDATA[ ... ]_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;![SCRIPT[ ... ]]_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Подключение внешнего js-файла, отсутствующего на странице, возможно… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "только один раз"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "только до загрузки страницы"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "сколько угодно раз"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "только после загрузки страницы"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "не более двух раз  противоречит формулировке"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Результат выполнения операторов a = new Array(1,2,3);b = new Array(1,2,3);echo(a==b) … ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "истина"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "ложь"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "зависит от множества случайных обстоятельств"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "код выдаст ошибку"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "неопределенное значение"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceC",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Неудачная формулировка. Вводите в заблуждение, используя ед.число в формулировке при нескольких верных дистракторах. Фрагменты кода для вывода приветствия через 5 секунд после запуска скрипта: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "sleep(5); alert(_quot;Привет!_quot;);"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "sleep(5000); alert(_quot;Привет!_quot;);"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "setTimeout('alert(_quot;Привет!_quot;)', 5000);"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "setTimeout(function() {alert(_quot;Привет!_quot;)}, 5000);"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "setTimeout(function() {alert(_quot;Привет!_quot;)}, 5);"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Место, где может располагаться тег «script» по стандарту HTML… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Только в HEAD"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Только в BODY"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "В HEAD или в BODY"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Где угодно, главное чтоб был"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Ни в HEAD, ни в BODY"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceD",
+				"ChoiceE"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Задание 510.«50/50» ЗАПРЕЩЕНЫ Фрагменты кода корректного задания массива из элементов _quot;a_quot;, _quot;b_quot;: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "var a = new Array(_quot;a_quot;,_quot;b_quot;)"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "var a = { _quot;a_quot;, _quot;b_quot; }"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "var a = ( _quot;a_quot;, _quot;b_quot; )"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "var a = [ _quot;a_quot;, _quot;b_quot; ]"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "var a = _quot;a,b_quot;.split(',')"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Варианты, правильно объявляющие переменную для f, возвращающую сумму двух аргументов: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "var f = function(a,b) { return a+b }"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "var f = new Function('a,b', 'return a+b')"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "var f = new Function('a', 'b', 'return a+b')"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "var f = new function('a,b', 'return a+b')"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "var f = new function('a', 'b', 'return a+b')"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Количество параметров при вызове функции JavaScript… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Ровно столько, сколько указано в определении функции"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Сколько указано в определении функции или меньше"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Сколько указано в определении функции или больше"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Любое количество"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Не более двух"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Арифметическая операция, приводящая к ошибке в javascript… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Деление на ноль"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Умножение числа на строку"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Корень из отрицательного числа"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Операция возведения в степень Math.power(4,2)"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Деление на единицуь"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Значение a.length после выполнения кода var a = [];a[1] = 5;a[3] = 53;delete a[3] … ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "1"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "2"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "3"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "4"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "-1"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Оператор === выполняет операцию… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Приравнивает переменную указанному значению"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Сравнивает по ссылке, а не по значению"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Сравнивает без приведения типа"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Приравнивает переменную пустому значению  противоречит формулировке"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Сравнивает по значению, а не по ссылке"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Значение переменной i после выполнения кода var i = 5;{var i = 1}… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "1"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "5"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "0"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "NaN"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "-1"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Значение name в результате выполнения кода name = _quot;пупкин_quot;.replace(_quot;п_quot;,_quot;д_quot;… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "дудкин"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "дупкин"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "пупкин"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "дукпин"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "пудкин"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Значение выражения a+b+c после a = 1;var b = {toString:function(){return '1'}};var c=Object(1) … ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "11[object Object]"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "2[object Object]"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "111"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "3"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "1[object Object]"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Названия переменных в JavaScript могут включать в себя: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Буквы"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Подчёркивание"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Символ доллара"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Арабские цифры"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Римские цифры"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Символ, с которого могут начинаться имена переменных в языке в JavaScript: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Буква"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Подчеркивание"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Цифра"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Символ доллара"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Символ “-”"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Добавление JavaScript-кода на страницу осуществляется тегами… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;script_gt; и _lt;/ script_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;js_gt; и _lt;/js_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;java_gt; и _lt;/java_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;java script_gt; и _lt;/java script_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;head_gt; и _lt;/head_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Однострочные комментарии в JavaScript обозначаются символом… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "--"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;!--_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "//"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "##"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "$"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Числовой тип в языке JavaScript… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "integer"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "number"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "int"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "double"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "float"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Синтаксическая конструкция JavaScript, добавляющая новую область видимости… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "var"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "with"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "while"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "throw"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "continue"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Ключевое слово JavaScript для объявления переменной в текущей области видимости… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "local"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "with"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "var"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "for"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "break"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция JavaScript, позволяющая выполнить код, переданный ей в виде строки… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "alert"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "prompt"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "confirm"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "eval"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "encodeURL"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция вывода модального окна с сообщением в JavaScript… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "confirm"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "alert"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "eval"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "prompt"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "isFinite"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функции вывода модального окна для диалога с пользователем в JavaScript: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "confirm"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "alert"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "eval"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "prompt"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "isFinite"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceB",
+				"ChoiceE"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Правильный синтаксис создания массива в JavaScript: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "var mas=()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "var mas=[]"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "var mas={1,2,3}"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "var mas={}"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "var mas=[1,2,3]"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Оператор сложения строк в JavaScript… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "."
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "+"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "&"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "@"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "#"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Число конструкций для циклов в javascript… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Только две: for и while."
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Только одна: for"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Три: for, while и do...while"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Только одна: while"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Только while и do...while"
+	}					
+		]
+	}
+	}
+	} 
+	]
+	}
+}

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tests tema='TEST-chernyshov/TEST-Wpr-3'>
+Задание 301.Чернышов Л.Н.
+<assessmentItem number='301' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Корневой элемент DOM-дерева страницы в JavaScript: </prompt>
+      <simpleChoice identifier='ChoiceA'>infinity</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>document</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>window</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>arguments</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>object</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 302.Чернышов Л.Н.
+<assessmentItem number='302' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Метод DOM для установки значения атрибута: </prompt>
+      <simpleChoice identifier='ChoiceA'>setAttribute</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>set_Attribute</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>setattribute</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>getAttribute</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>get-Attribute</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 303.Чернышов Л.Н.
+<assessmentItem number='303' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Метод DOM для получения значения атрибута… </prompt>
+      <simpleChoice identifier='ChoiceA'>getAttribute</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>get_Attribute</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>getattribute</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>setAttribute</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>getatt</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 304.Чернышов Л.Н.
+<assessmentItem number='304' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Метод DOM для проверки существования атрибута… </prompt>
+      <simpleChoice identifier='ChoiceA'>hasAttribute</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>isAttribute</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>has_Attribute</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>existsAttribute</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>isAttribute</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 305.Чернышов Л.Н.
+<assessmentItem number='305' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Методы DOM для удаления атрибута: </prompt>
+      <simpleChoice identifier='ChoiceA'>removeAttribute</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>removeAttributeNode</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>deleteAttribute</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>delAttribute</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>removeattribute</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 306.Чернышов Л.Н.
+<assessmentItem number='306' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Псевдо-массив, хранящий все дочерние элементы в DOM… </prompt>
+      <simpleChoice identifier='ChoiceA'>childNodes</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>childNode</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>Allchild</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>AllChild</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>childnodes</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 307.Чернышов Л.Н.
+<assessmentItem number='307' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Свойство в DOM для доступа к первому элементу… </prompt>
+      <simpleChoice identifier='ChoiceA'>firstChild</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>first_Child</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>FirstChild</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>firstchild</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>first-child</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 308.Чернышов Л.Н.
+<assessmentItem number='308' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Свойство в DOM для доступа к последнему элементу… </prompt>
+      <simpleChoice identifier='ChoiceA'>lastChild</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>last_Child</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>lastchild</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>last_child</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>last-child</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 309.Чернышов Л.Н.
+<assessmentItem number='309' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Свойство в DOM для доступа к элементам слева… </prompt>
+      <simpleChoice identifier='ChoiceA'>previousSibling</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>previousElement</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>previous_Element</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>PreviousElement</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Previouselement</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 310.Чернышов Л.Н.
+<assessmentItem number='310' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Свойство в DOM для доступа к элементам справа… </prompt>
+      <simpleChoice identifier='ChoiceA'>nextSibling</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>nextElement</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>next_element</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>NextSibling</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Next-Sibling</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 311.Чернышов Л.Н.
+<assessmentItem number='311' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>DOM - это… </prompt>
+      <simpleChoice identifier='ChoiceA'>Data Object Model</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Document Open Model</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>Document Object Model</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Data Open Model</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Document Object Modification</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 312.Чернышов Л.Н.
+<assessmentItem number='312' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Типы документов, к которым программный интерфейс DOM позволяет получить доступ к содержимому: </prompt>
+      <simpleChoice identifier='ChoiceA'>HTML</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>XHTML</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>XML</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>DOC</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>DOCX</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 313.Чернышов Л.Н.
+<assessmentItem number='313' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Согласно DOM-модели, документ является… </prompt>
+      <simpleChoice identifier='ChoiceA'>Иерархией</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Списком</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>Таблицей</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Набором данных</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Набором узлов</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 314.Чернышов Л.Н.
+<assessmentItem number='314' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Внешний тег DOM-модели… </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;head_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;body_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;title_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;html_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;dom_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 315.Чернышов Л.Н.
+<assessmentItem number='315' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Непосредственными потомками узла _lt;html_gt; в DOM являются: </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;body_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;ol_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;title_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;head_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;table_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 316.Чернышов Л.Н.
+<assessmentItem number='316' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Любой доступ и изменения DOM берут свое начало от объекта… </prompt>
+      <simpleChoice identifier='ChoiceA'>file</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>node</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>tree</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>document</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>doc</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 317.Чернышов Л.Н.
+<assessmentItem number='317' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Количество типов элементов в DOM… </prompt>
+      <simpleChoice identifier='ChoiceA'>4</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>10</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>12</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>16</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>9</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 318.Чернышов Л.Н.
+<assessmentItem number='318' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Свойство DOM-элементов, которое содержит весь HTML-код внутри узла… </prompt>
+      <simpleChoice identifier='ChoiceA'>className</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>innerHTML</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>tagName</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>style</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>ownerHTML</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 319.Чернышов Л.Н.
+<assessmentItem number='319' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Средства поиска элемента в DOM: </prompt>
+      <simpleChoice identifier='ChoiceA'>getElementById</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>getElementsByTagName</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>getElementsByName</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>getElementsByTag</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>getElementsByElement</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 320.Чернышов Л.Н.
+<assessmentItem number='320' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Верные утверждения: </prompt>
+      <simpleChoice identifier='ChoiceA'>DOM-модель — это внутреннее представление HTML-страницы в виде дерева</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Все элементы страницы, включая теги, текст, комментарии, являются узлами DOM</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>У элементов DOM есть свойства и методы, которые позволяют изменять их</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>IE8 генерирует пробельные узлы</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>IE8 генерирует недостающие узлы</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 321.Чернышов Л.Н.
+<assessmentItem number='321' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Основные типы узлов в DOM: </prompt>
+      <simpleChoice identifier='ChoiceA'>Документы</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Элементы</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>Текстовые узлы</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Комментарии</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+</tests>

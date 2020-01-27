@@ -1,0 +1,2088 @@
+
+{
+	"test":
+	{
+	"assessmentItem":
+	[
+
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Знак, используемый для алиаса в jQuery… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "?"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "%"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "$"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "#"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "&"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Библиотека jQuery предназначена для написания… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "клиентских скриптов"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "серверных скриптов"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "удаленных доменов"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "серверных селекторов"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "клиентских доменов"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Код jQuery, выполняемый для выставления красного фона всем параграфам… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "$(_quot;p_quot;).layout(_quot;backgroundcolor_quot;,_quot;red_quot;);"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "$(_quot;p_quot;).manipulate(_quot;background-color_quot;,_quot;red_quot;);"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "$(_quot;p_quot;).style(_quot;background-color_quot;,_quot;red_quot;);"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "$(_quot;p_quot;).css(_quot;background-color_quot;,_quot;red_quot;);"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "$(_quot;p_quot;).css(_quot;backgroundcolor_quot;,_quot;red_quot;);"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Cелектор jQuery $(_quot;div.intro_quot;) выберет элементы… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Все div с id=_quot;intro_quot;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Все div с классами _quot;intro_quot;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Первый div с классом _quot;intro_quot;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Первый div с id=_quot;intro_quot;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Первый div с class=_quot;intro_quot;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Метод jQuery, используемый для скрытия элементов… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "hidden()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "hide()"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "display(none)"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "visible(false)"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "invisible()"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Метод jQuery, используемый для настройки одного или нескольких стилей для элементов… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "css()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "style()"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "html()"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "hide()"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "set()"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Код в jQuery, делающий все элементы div высотой 100 пикселей… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "$(_quot;div_quot;).yPos(100)"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "$(_quot;div_quot;).height(100)"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "$(_quot;div_quot;).height=_quot;100_quot;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "$(_quot;div_quot;).height.100()"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "$(div).height(100)"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceB",
+				"ChoiceE"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Верные утверждения _quot;Для использования jQuery ..._quot;: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "вам необходимо купить его на сайте www.jquery.com"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "вы должны подключить библиотеку через Google"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "ничего не нужно, все современные браузеры (Internet Explorer, Chrome, Firefox и Opera) по умолчанию поддерживают данную библиотеку."
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "вам необходимо подать заявку на официальном сайте"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "вы можете скачать библиотеку и подключить ее к HTML-странице"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Язык программирования, на котором написана библиотека JQuery… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "JavaScript"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "C#"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "VBScript"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "C++"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Python"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceE"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "AJAX - это… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "технология обмена данными с сервером"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "давно забытый язык программирования"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "компания, разрабатывающая программное обеспечение"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "новейшая СУБД"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "часть JQuery"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Формат передачи данных с использованием AJAX… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "XML"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Только XML и JSON"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "JSON, XHTML, XML"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "JSON XHTML, XML и обычный текст"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Только JSON"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Фирма, которая начала популяризировать технологию AJAX … ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Microsoft"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Google"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "IBM"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Sun Microsystem"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Oracle"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Назначение тега _lt;noscript_gt; в AJAX… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "запрет запуска скриптов на странице"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "вывод текста, выводимого браузерам без JavaScript"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "выделение текста, который не может сдержать скрипты"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "блокировка вывода текста в браузере"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "выделение текста, содержащего скрипты"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Уникальность AJAX в том, что он… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "позволяет делать асинхронные запросы"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "использует синтаксис С++"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "работает одинаково на всех веб-браузерах"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "является отдельным средством разработки"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "написана на JavaScript"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "JavaScript и Java имеют похожие названия, потому что… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "оба созданы на острове Ява"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "синтаксис JavaScript основан на Java"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "JavaScript это урезанная версия Java"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Java это урезанная версия JavaScript"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "синтаксис JavaScript отличен от синтаксиса Java"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "AJAX позволяет… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "сделать web-страницу более динамичной"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "сделать web-страницу более интерактивной и быстрой"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "облегчить подключение web-страницы к серверу"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "сделать web-страницу более простой"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "облегчить разработку web-страницы"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "AJAX - это… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "web-технология, позволяющая взаимодействовать с сервером без перезагрузки страницы"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "текстовый формат обмена данными, основанный на JavaScript и обычно используемый именно с этим языком"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "скриптовый язык программирования общего назначения, интенсивно применяемый для разработки веб-приложений"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "web-технология, позволяющая взаимодействовать с клиентом без перезагрузки сервера"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "скриптовый язык программирования общего назначения, интенсивно применяемый для разработки обычных приложений"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Объект, на использовании которого базируется технология AJAX… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "privateMethod()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "XMLHttpRequest()    Визуально выделяется"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "responseXML()"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "overrideMimeType(mimeType)"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "responseHTNL()"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "XMLRequest()"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Язык веб-программирования, на котором пишется клиентская часть AJAX… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "С++"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "PHP"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "JavaScript"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Паскаль"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Java"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Процессы, выполняющиеся в клиентской части, при выполнении AJAX-приложения: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "сбор информации для отправки запроса серверу"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "установка соединения с сервером"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "отправка запроса"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "получение ответа и обработка ответа сервера"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "переименование клиентской части"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Преимущества использования AJAX по сравнению со стандартной технологией: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "экономия трафика"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "уменьшение нагрузки на сервер"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "ускорение реакции интерфейса"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "обращения сайта к серверу не ограничиваются щелчками по ссылкам и отправкой форм"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "отсутствие интеграции со стандартными инструментами браузера"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "усложнение проекта"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "jQuery — это… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "библиотека JavaScript, фокусирующаяся на взаимодействии JavaScript и HTML"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "набор функций для оформления Визуально выделяется"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "среда для разработки web-приложений"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "эквивалент среды Visual Studio"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "надстройка для NotePad++"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "библиотека Ajax"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Селектор языка jQuery _quot;.class_quot; соответствует … ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": " всем элементам данного класса"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "всем элементам в группе _lt;class_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "всем элементам заданных в спсике классов"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "элементам в зависимости от комбинации указанных селекторов"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "соответствует всем неактивным элементам"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceE"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Корректные способы обращения к селектору класса: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "$(_quot;.selector_quot;)"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "$(_quot;selector_quot;)"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "$(_quot;#someId_quot;)"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "$(.someId)"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "$(_quot;.someBlock_quot;)"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Селектор языка jQuery _quot;:first-child…_quot; соответствует… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "всем элементам, которые являются первыми дочерними объектами у _quot;родителей_quot;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "всем элементам, которые являются последними дочерними объектами у _quot;родителей_quot;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "элементам, которые являются единственными дочерними объектами у _quot;родителей_quot;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "всем элементам, которые являются “N-ми потомками” либо четными/нечетными _quot;потомками_quot;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "всем скрытым элементам"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Селектор языка jQuery  _quot;:enabled…_quot; cоответствует всем… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "активным элементам"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "неактивным элементам"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "отмеченным элементам"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "выбранным элементам"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "нечетным элементам"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Фильтр _quot;:focus_quot; возвращает элемент… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "последний в спсике Визуально выделяется"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "находящийся в фокусе"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "с нечетным номером"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "с четным номером"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "содержащий текст"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Селекторы _quot;:button_quot;, _quot;:radio_quot;, _quot;:checkbox_quot; означают… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "фильтры дочерних элементов"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "фильтры элементов форм"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "фильтры по содержимому"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "простые фильтры"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "сложные фильтры"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Правильная команда языка jQuery… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "#('селектор')"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "?('селектор')"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "$('селектор')"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "&('селектор')"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "@('селектор')"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Код $('a [href^=_quot;значение_quot;]') находит элементы с атрибутом, который… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "начинается с _quot;значение_quot;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "заканчивается на _quot;значение_quot;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "в любом месте содержит _quot;значение_quot;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "не содержит _quot;значение_quot;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "не содержит _quot;значение_quot; в начале"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Код $('a [href*=_quot;значение_quot;]') находит элементы с атрибутом, который… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "не содержит _quot;значение_quot; в начале"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "начинается с _quot;значение_quot;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "заканчивается на _quot;значение_quot;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "в любом месте содержит _quot;значение_quot;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "не содержит _quot;значение_quot;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Код $('a [href $ = _quot;значение_quot;]') находит элементы с атрибутом, который… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "начинается с _quot;значение_quot;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "заканчивается на _quot;значение_quot;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "в любом месте содержит _quot;значение_quot;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "не содержит _quot;значение_quot;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "не содержит _quot;значение_quot; в начале"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Метод jQuery.ajax()… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "осуществляет запрос к серверу без перезагрузки страницы"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "рроизводит запрос к серверу путем неоднократной перезагрузки страницы"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "загружает на страницу системные требования к ajax"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "выдает в диалоговом окне информацию о веб-странице"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "перезагружает страницу на сервере"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Кодировка, в которой XmlHttpRequest отправляется на сервер… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "кодировка, указанная в заголовке запроса"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "кодировка страницы"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "UTF-8"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "кодировка, какую захочет получить сервер"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Window-1251"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "JQuery — библиотека JavaScript, фокусирующаяся на взаимодействии… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "JavaScript и HTML"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "JavaScript и XML"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "HTML и XML"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Java и HTML"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "JavaScript и XHTML"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Возможности JQuery: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Переход по дереву DOM"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Обработка событий"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Ajax-дополнения"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Работа с файловой системой на клиенте"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Работа с файловой системой на сервере"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "JQuery включается в web-страницу как один внешний… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "JavaScript-файл"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "XML-файл"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "HTML-файл"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "PHP-файл"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "текстовый файл"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Вся работа с JQuery ведется с помощью функции… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "$"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "^"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "%"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "@"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "JQuery"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "События загрузки страницы JQuery: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": ".ready()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": ".load()"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": ".unload()"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": ".download"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": ".down-load"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Методы управления анимацией JQuery: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "animate()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "stop()"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "delay()"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "destroy()"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "js-animate()"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Cоздание div-элемента и добавления его в конец элемента с идентификатором content… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "$(_quot;_lt;div_gt;test_lt;/div_gt;_quot;).appendTo(_quot;#content_quot;)"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "$(_quot;_lt;div_gt;test_lt;/div_gt;_quot;).addToEnd(_quot;content_quot;)"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "$(_quot;_lt;div_gt;test_lt;/div_gt;_quot;).appendTo(#content)"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "$(_lt;div_gt;test_lt;/div_gt;).appendTo(_quot;#content_quot;)"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "$(_quot;_lt;div_gt;test_lt;/div_gt;_quot;).addToEnd(_quot;#content_quot;)"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Вызов метода ready в jQuery осуществляется… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "в момент готовности дерева DOM"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "до формирования дерева DOM"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "когда страница сформирована полностью"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "после запуска метода, указанного в  window.onload"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "после запуска метода, указанного в  window.load"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Метод jQuery для поэлементной обработки набора… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "each()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "foreach()"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Each()"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "ForEach()"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "for()"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Обработка Ajax-запроса на сервере… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "ничем не отличается от обработки обычного запроса"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "отличается от обработки обычного запроса"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "требует настройки, связанной с кодировкой"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "требует подключения специализированной библиотеки"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "требует подключения библиотеки, связанной с кодировкой"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Подключение jQuery к сайту производится… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "с помощью подключения обычного javascript-кода Визуально выделяется"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "с помощью элемента _lt;jQuery_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "с обязательной ссылкой на размещенный в Интернете файл"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "с обязательным размещением  кода jQuery на сайте"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "с помощью элемента _lt;Jquery_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Параметры метода animate библиотеки jQuery задают: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "список CSS-свойств, участвующих в анимации"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "продолжительность выполнения анимации"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "изменение скорости анимации"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "функцию, которая будет вызвана после завершения анимации"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "условия для запуска анимации"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Вызов функции jQuery для получения div-элемента с индексом i в наборе… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "$(_quot;div_quot;).eq(i)"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "$(_quot;div_quot;).get(i)"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "$(_quot;div_quot;).div(i)"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "$(_quot;div_quot;).element(i)"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "$(_quot;div_quot;).elem(i)"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Селектор .class библиотеки jQuery… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "соответствует всем элементам класса _quot;class_quot;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "соответствует всем классам"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "выводит результат в зависимости от указанных селекторов"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "соответствует всем неактивным элементам"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "соответствует всем активным классам"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Правильные способы обращения к селектору класса: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "$('.selector')"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "$(_quot;.someBlock_quot;)"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "$('selector')"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "$('#selector')"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "$(.selector)"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Селектор :disabled библиотеки jQuery соответствует всем: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "заблокированным элементам с атрибутом disabled"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "заблокированным элементам без атрибута disabled"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "незаблокированным элементам с атрибутом disabled"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "незаблокированным элементам без атрибута disabled"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "заблокированным элементам с атрибутом enabled"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Селектор :enabled библиотеки jQuery соответствует всем… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "активным элементам без атрибута disabled"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "активным элементам без атрибута enabled"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "активным элементам с атрибутом disabled"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "неактивным элементам с атрибутом enabled"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "отмеченным элементам"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Событие show() библиотеки jQuery… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "отображает каждый из совпавших элементов набора, если они были скрыты"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "скрывает каждый из совпавших элементов набора, если они были видимыми"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "переключает режим отображения каждого из элементов набора"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "предназначено для создания пользовательской анимации"
+	}					
+		]
+	}
+	}
+	} 
+	]
+	}
+}

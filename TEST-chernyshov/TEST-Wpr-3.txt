@@ -1,0 +1,188 @@
+Задание 301.Чернышов Л.Н.
+Корневой элемент DOM-дерева страницы в JavaScript:
+
+infinity
+*document
+window
+arguments
+object
+
+Задание 302.Чернышов Л.Н.
+Метод DOM для установки значения атрибута:
+
+*setAttribute
+set_Attribute
+setattribute
+getAttribute
+get-Attribute
+
+Задание 303.Чернышов Л.Н.
+Метод DOM для получения значения атрибута…
+
+*getAttribute
+get_Attribute
+getattribute
+setAttribute
+getatt
+
+Задание 304.Чернышов Л.Н.
+Метод DOM для проверки существования атрибута…
+
+*hasAttribute
+isAttribute
+has_Attribute
+existsAttribute
+isAttribute
+
+Задание 305.Чернышов Л.Н.
+Методы DOM для удаления атрибута: 
+
+*removeAttribute
+*removeAttributeNode
+deleteAttribute
+delAttribute
+removeattribute
+
+Задание 306.Чернышов Л.Н.
+Псевдо-массив, хранящий все дочерние элементы в DOM…
+
+*childNodes
+childNode
+Allchild
+AllChild
+childnodes
+
+Задание 307.Чернышов Л.Н.
+Свойство в DOM для доступа к первому элементу…
+
+*firstChild 
+first_Child 
+FirstChild 
+firstchild 
+first-child 
+
+Задание 308.Чернышов Л.Н.
+Свойство в DOM для доступа к последнему элементу…
+
+*lastChild 
+last_Child 
+lastchild 
+last_child 
+last-child 
+
+Задание 309.Чернышов Л.Н.
+Свойство в DOM для доступа к элементам слева…
+
+*previousSibling
+previousElement
+previous_Element
+PreviousElement
+Previouselement
+
+Задание 310.Чернышов Л.Н.
+Свойство в DOM для доступа к элементам справа…
+
+*nextSibling
+nextElement
+next_element
+NextSibling
+Next-Sibling
+
+Задание 311.Чернышов Л.Н.
+DOM - это…
+
+Data Object Model
+Document Open Model
+*Document Object Model
+Data Open Model
+Document Object Modification
+
+Задание 312.Чернышов Л.Н.
+Типы документов, к которым программный интерфейс DOM позволяет получить доступ к содержимому:
+
+*HTML
+*XHTML
+*XML
+DOC
+DOCX
+
+Задание 313.Чернышов Л.Н.
+Согласно DOM-модели, документ является…
+
+*Иерархией
+Списком
+Таблицей
+Набором данных
+Набором узлов
+
+Задание 314.Чернышов Л.Н.
+Внешний тег DOM-модели…
+
+<head>
+<body>
+<title>
+*<html>
+<dom>
+
+Задание 315.Чернышов Л.Н.
+Непосредственными потомками узла <html> в DOM являются:
+
+*<body>
+<ol>
+<title>
+*<head>
+<table>
+
+Задание 316.Чернышов Л.Н.
+Любой доступ и изменения DOM берут свое начало от объекта…
+
+file
+node
+tree
+*document
+doc
+
+Задание 317.Чернышов Л.Н.
+Количество типов элементов в DOM…
+
+4
+10
+*12
+16
+9
+
+Задание 318.Чернышов Л.Н.
+Свойство DOM-элементов, которое содержит весь HTML-код внутри узла…
+
+className
+*innerHTML
+tagName
+style
+ownerHTML
+
+Задание 319.Чернышов Л.Н.
+Средства поиска элемента в DOM:
+
+*getElementById
+*getElementsByTagName
+*getElementsByName
+getElementsByTag
+getElementsByElement
+
+Задание 320.Чернышов Л.Н.
+Верные утверждения:
+
+*DOM-модель — это внутреннее представление HTML-страницы в виде дерева
+*Все элементы страницы, включая теги, текст, комментарии, являются узлами DOM
+*У элементов DOM есть свойства и методы, которые позволяют изменять их
+IE8 генерирует пробельные узлы
+IE8 генерирует недостающие узлы
+
+Задание 321.Чернышов Л.Н.
+Основные типы узлов в DOM:
+
+*Документы
+*Элементы
+*Текстовые узлы
+*Комментарии
+XML-узлы

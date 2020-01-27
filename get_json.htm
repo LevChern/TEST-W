@@ -1,0 +1,44 @@
+<?php  header("Content-Type: text/html; charset=UTF-8");
+?>
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="lab_db.css"/>
+<style>
+   body { background: url("FU/images.jpg"); }
+</style>
+<script src="jquery-latest.min.js"></script>
+<script>
+function finit(){
+	var disc = 'ob' // document.getElementById("hdisc").value
+	//var md = disc.split(';'); disc=md[0];
+	var tema = '2' // document.getElementById("ntema").value
+	var prep  = "haritonova"; 	// 
+	//alert("TEST-"+prep+"/TEST-"+disc+"-"+tema+".xml")
+	$.get("testGet.php?prep="+prep+"&disc="+disc+"&tema="+tema,
+		function(data){  // json 
+			var tst = JSON.parse(data)
+			var mtest = tst.test.assessmentItem
+			for(var i=0; i<mtest.length; i++){
+				var tv = mtest[i].responseDeclaration._cardinality
+				var pr = mtest[i].itemBody.choiceInteraction.prompt
+				var mans = mtest[i].itemBody.choiceInteraction.simpleChoice
+				//document.write("pr="+pr)
+				if (tv=='single'){
+					
+				}else{ // multiple
+					
+				}
+				for(var j=0; j<mans.length; j++){
+					var ans = mans[j].__text
+					//document.write(ans)
+				}
+			}	
+		}	
+	)
+}
+
+</script>
+<body onload='finit()'>
+<input valign='top' type='button' value='Закрыть окно' onclick = 'window.location="index_stud.php"' class='b2'>
+<div id="test"></div>
+</body>

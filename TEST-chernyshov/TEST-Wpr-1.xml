@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tests tema='TEST-chernyshov/TEST-Wpr-1'>
+Задание 101.Чернышов Л.Н.
+<assessmentItem number='101' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Знак, используемый для алиаса в jQuery… </prompt>
+      <simpleChoice identifier='ChoiceA'>?</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>%</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>$</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>#</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>&amp;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 102.Чернышов Л.Н.
+<assessmentItem number='102' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Библиотека jQuery предназначена для написания… </prompt>
+      <simpleChoice identifier='ChoiceA'>клиентских скриптов</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>серверных скриптов</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>удаленных доменов</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>серверных селекторов</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>клиентских доменов</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 103.Чернышов Л.Н.
+<assessmentItem number='103' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Код jQuery, выполняемый для выставления красного фона всем параграфам… </prompt>
+      <simpleChoice identifier='ChoiceA'>$(_quot;p_quot;).layout(_quot;backgroundcolor_quot;,_quot;red_quot;);</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>$(_quot;p_quot;).manipulate(_quot;background-color_quot;,_quot;red_quot;);</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>$(_quot;p_quot;).style(_quot;background-color_quot;,_quot;red_quot;);</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>$(_quot;p_quot;).css(_quot;background-color_quot;,_quot;red_quot;);</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>$(_quot;p_quot;).css(_quot;backgroundcolor_quot;,_quot;red_quot;);</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 104.Чернышов Л.Н.
+<assessmentItem number='104' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Cелектор jQuery $(_quot;div.intro_quot;) выберет элементы… </prompt>
+      <simpleChoice identifier='ChoiceA'>Все div с id=_quot;intro_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Все div с классами _quot;intro_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>Первый div с классом _quot;intro_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Первый div с id=_quot;intro_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Первый div с class=_quot;intro_quot;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 105.Чернышов Л.Н.
+<assessmentItem number='105' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Метод jQuery, используемый для скрытия элементов… </prompt>
+      <simpleChoice identifier='ChoiceA'>hidden()</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>hide()</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>display(none)</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>visible(false)</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>invisible()</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 106.Чернышов Л.Н.
+<assessmentItem number='106' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Метод jQuery, используемый для настройки одного или нескольких стилей для элементов… </prompt>
+      <simpleChoice identifier='ChoiceA'>css()</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>style()</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>html()</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>hide()</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>set()</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 107.Чернышов Л.Н.
+<assessmentItem number='107' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Код в jQuery, делающий все элементы div высотой 100 пикселей… </prompt>
+      <simpleChoice identifier='ChoiceA'>$(_quot;div_quot;).yPos(100)</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>$(_quot;div_quot;).height(100)</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>$(_quot;div_quot;).height=_quot;100_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>$(_quot;div_quot;).height.100()</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>$(div).height(100)</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 108.Чернышов Л.Н.
+<assessmentItem number='108' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceB</value>
+      <value>ChoiceE</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Верные утверждения _quot;Для использования jQuery ..._quot;: </prompt>
+      <simpleChoice identifier='ChoiceA'>вам необходимо купить его на сайте www.jquery.com</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>вы должны подключить библиотеку через Google</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>ничего не нужно, все современные браузеры (Internet Explorer, Chrome, Firefox и Opera) по умолчанию поддерживают данную библиотеку.</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>вам необходимо подать заявку на официальном сайте</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>вы можете скачать библиотеку и подключить ее к HTML-странице</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 109.Чернышов Л.Н.
+<assessmentItem number='109' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Язык программирования, на котором написана библиотека JQuery… </prompt>
+      <simpleChoice identifier='ChoiceA'>JavaScript</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>C#</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>VBScript</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>C++</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Python</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 110.Чернышов Л.Н.
+<assessmentItem number='110' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceE</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>AJAX - это… </prompt>
+      <simpleChoice identifier='ChoiceA'>технология обмена данными с сервером</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>давно забытый язык программирования</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>компания, разрабатывающая программное обеспечение</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>новейшая СУБД</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>часть JQuery</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 111.Чернышов Л.Н.
+<assessmentItem number='111' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Формат передачи данных с использованием AJAX… </prompt>
+      <simpleChoice identifier='ChoiceA'>XML</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Только XML и JSON</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>JSON, XHTML, XML</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>JSON XHTML, XML и обычный текст</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Только JSON</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 112.Чернышов Л.Н.
+<assessmentItem number='112' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Фирма, которая начала популяризировать технологию AJAX … </prompt>
+      <simpleChoice identifier='ChoiceA'>Microsoft</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Google</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>IBM</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Sun Microsystem</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Oracle</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 113.Чернышов Л.Н.
+<assessmentItem number='113' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Назначение тега _lt;noscript_gt; в AJAX… </prompt>
+      <simpleChoice identifier='ChoiceA'>запрет запуска скриптов на странице</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>вывод текста, выводимого браузерам без JavaScript</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>выделение текста, который не может сдержать скрипты</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>блокировка вывода текста в браузере</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>выделение текста, содержащего скрипты</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 114.Чернышов Л.Н.
+<assessmentItem number='114' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Уникальность AJAX в том, что он… </prompt>
+      <simpleChoice identifier='ChoiceA'>позволяет делать асинхронные запросы</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>использует синтаксис С++</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>работает одинаково на всех веб-браузерах</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>является отдельным средством разработки</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>написана на JavaScript</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 115.Чернышов Л.Н.
+<assessmentItem number='115' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>JavaScript и Java имеют похожие названия, потому что… </prompt>
+      <simpleChoice identifier='ChoiceA'>оба созданы на острове Ява</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>синтаксис JavaScript основан на Java</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>JavaScript это урезанная версия Java</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Java это урезанная версия JavaScript</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>синтаксис JavaScript отличен от синтаксиса Java</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 116.Чернышов Л.Н.
+<assessmentItem number='116' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>AJAX позволяет… </prompt>
+      <simpleChoice identifier='ChoiceA'>сделать web-страницу более динамичной</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>сделать web-страницу более интерактивной и быстрой</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>облегчить подключение web-страницы к серверу</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>сделать web-страницу более простой</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>облегчить разработку web-страницы</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 117.Чернышов Л.Н.
+<assessmentItem number='117' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>AJAX - это… </prompt>
+      <simpleChoice identifier='ChoiceA'>web-технология, позволяющая взаимодействовать с сервером без перезагрузки страницы</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>текстовый формат обмена данными, основанный на JavaScript и обычно используемый именно с этим языком</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>скриптовый язык программирования общего назначения, интенсивно применяемый для разработки веб-приложений</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>web-технология, позволяющая взаимодействовать с клиентом без перезагрузки сервера</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>скриптовый язык программирования общего назначения, интенсивно применяемый для разработки обычных приложений</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 118.Чернышов Л.Н.
+<assessmentItem number='118' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Объект, на использовании которого базируется технология AJAX… </prompt>
+      <simpleChoice identifier='ChoiceA'>privateMethod()</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>XMLHttpRequest()    Визуально выделяется</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>responseXML()</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>overrideMimeType(mimeType)</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>responseHTNL()</simpleChoice>
+      <simpleChoice identifier='ChoiceF'>XMLRequest()</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 119.Чернышов Л.Н.
+<assessmentItem number='119' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Язык веб-программирования, на котором пишется клиентская часть AJAX… </prompt>
+      <simpleChoice identifier='ChoiceA'>С++</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>PHP</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>JavaScript</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Паскаль</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Java</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 120.Чернышов Л.Н.
+<assessmentItem number='120' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Процессы, выполняющиеся в клиентской части, при выполнении AJAX-приложения: </prompt>
+      <simpleChoice identifier='ChoiceA'>сбор информации для отправки запроса серверу</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>установка соединения с сервером</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>отправка запроса</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>получение ответа и обработка ответа сервера</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>переименование клиентской части</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 121.Чернышов Л.Н.
+<assessmentItem number='121' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Преимущества использования AJAX по сравнению со стандартной технологией: </prompt>
+      <simpleChoice identifier='ChoiceA'>экономия трафика</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>уменьшение нагрузки на сервер</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>ускорение реакции интерфейса</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>обращения сайта к серверу не ограничиваются щелчками по ссылкам и отправкой форм</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>отсутствие интеграции со стандартными инструментами браузера</simpleChoice>
+      <simpleChoice identifier='ChoiceF'>усложнение проекта</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 122.Чернышов Л.Н.
+<assessmentItem number='122' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>jQuery — это… </prompt>
+      <simpleChoice identifier='ChoiceA'>библиотека JavaScript, фокусирующаяся на взаимодействии JavaScript и HTML</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>набор функций для оформления Визуально выделяется</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>среда для разработки web-приложений</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>эквивалент среды Visual Studio</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>надстройка для NotePad++</simpleChoice>
+      <simpleChoice identifier='ChoiceF'>библиотека Ajax</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 123.Чернышов Л.Н.
+<assessmentItem number='123' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Селектор языка jQuery _quot;.class_quot; соответствует … </prompt>
+      <simpleChoice identifier='ChoiceA'> всем элементам данного класса</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>всем элементам в группе _lt;class_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>всем элементам заданных в спсике классов</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>элементам в зависимости от комбинации указанных селекторов</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>соответствует всем неактивным элементам</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 124.Чернышов Л.Н.
+<assessmentItem number='124' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceE</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Корректные способы обращения к селектору класса: </prompt>
+      <simpleChoice identifier='ChoiceA'>$(_quot;.selector_quot;)</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>$(_quot;selector_quot;)</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>$(_quot;#someId_quot;)</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>$(.someId)</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>$(_quot;.someBlock_quot;)</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 125.Чернышов Л.Н.
+<assessmentItem number='125' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Селектор языка jQuery _quot;:first-child…_quot; соответствует… </prompt>
+      <simpleChoice identifier='ChoiceA'>всем элементам, которые являются первыми дочерними объектами у _quot;родителей_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>всем элементам, которые являются последними дочерними объектами у _quot;родителей_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>элементам, которые являются единственными дочерними объектами у _quot;родителей_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>всем элементам, которые являются “N-ми потомками” либо четными/нечетными _quot;потомками_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>всем скрытым элементам</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 126.Чернышов Л.Н.
+<assessmentItem number='126' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Селектор языка jQuery  _quot;:enabled…_quot; cоответствует всем… </prompt>
+      <simpleChoice identifier='ChoiceA'>активным элементам</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>неактивным элементам</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>отмеченным элементам</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>выбранным элементам</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>нечетным элементам</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 127.Чернышов Л.Н.
+<assessmentItem number='127' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Фильтр _quot;:focus_quot; возвращает элемент… </prompt>
+      <simpleChoice identifier='ChoiceA'>последний в спсике Визуально выделяется</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>находящийся в фокусе</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>с нечетным номером</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>с четным номером</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>содержащий текст</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 128.Чернышов Л.Н.
+<assessmentItem number='128' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Селекторы _quot;:button_quot;, _quot;:radio_quot;, _quot;:checkbox_quot; означают… </prompt>
+      <simpleChoice identifier='ChoiceA'>фильтры дочерних элементов</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>фильтры элементов форм</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>фильтры по содержимому</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>простые фильтры</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>сложные фильтры</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 129.Чернышов Л.Н.
+<assessmentItem number='129' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Правильная команда языка jQuery… </prompt>
+      <simpleChoice identifier='ChoiceA'>#('селектор')</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>?('селектор')</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>$('селектор')</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>&amp;('селектор')</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>@('селектор')</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 130.Чернышов Л.Н.
+<assessmentItem number='130' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Код $('a [href^=_quot;значение_quot;]') находит элементы с атрибутом, который… </prompt>
+      <simpleChoice identifier='ChoiceA'>начинается с _quot;значение_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>заканчивается на _quot;значение_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>в любом месте содержит _quot;значение_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>не содержит _quot;значение_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>не содержит _quot;значение_quot; в начале</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 131.Чернышов Л.Н.
+<assessmentItem number='131' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Код $('a [href*=_quot;значение_quot;]') находит элементы с атрибутом, который… </prompt>
+      <simpleChoice identifier='ChoiceA'>не содержит _quot;значение_quot; в начале</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>начинается с _quot;значение_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>заканчивается на _quot;значение_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>в любом месте содержит _quot;значение_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>не содержит _quot;значение_quot;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 132.Чернышов Л.Н.
+<assessmentItem number='132' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Код $('a [href $ = _quot;значение_quot;]') находит элементы с атрибутом, который… </prompt>
+      <simpleChoice identifier='ChoiceA'>начинается с _quot;значение_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>заканчивается на _quot;значение_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>в любом месте содержит _quot;значение_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>не содержит _quot;значение_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>не содержит _quot;значение_quot; в начале</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 133.Чернышов Л.Н.
+<assessmentItem number='133' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Метод jQuery.ajax()… </prompt>
+      <simpleChoice identifier='ChoiceA'>осуществляет запрос к серверу без перезагрузки страницы</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>рроизводит запрос к серверу путем неоднократной перезагрузки страницы</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>загружает на страницу системные требования к ajax</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>выдает в диалоговом окне информацию о веб-странице</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>перезагружает страницу на сервере</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 134.Чернышов Л.Н.
+<assessmentItem number='134' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Кодировка, в которой XmlHttpRequest отправляется на сервер… </prompt>
+      <simpleChoice identifier='ChoiceA'>кодировка, указанная в заголовке запроса</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>кодировка страницы</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>UTF-8</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>кодировка, какую захочет получить сервер</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Window-1251</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 135.Чернышов Л.Н.
+<assessmentItem number='135' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>JQuery — библиотека JavaScript, фокусирующаяся на взаимодействии… </prompt>
+      <simpleChoice identifier='ChoiceA'>JavaScript и HTML</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>JavaScript и XML</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>HTML и XML</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Java и HTML</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>JavaScript и XHTML</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 136.Чернышов Л.Н.
+<assessmentItem number='136' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Возможности JQuery: </prompt>
+      <simpleChoice identifier='ChoiceA'>Переход по дереву DOM</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Обработка событий</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>Ajax-дополнения</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Работа с файловой системой на клиенте</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Работа с файловой системой на сервере</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 137.Чернышов Л.Н.
+<assessmentItem number='137' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>JQuery включается в web-страницу как один внешний… </prompt>
+      <simpleChoice identifier='ChoiceA'>JavaScript-файл</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>XML-файл</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>HTML-файл</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>PHP-файл</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>текстовый файл</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 138.Чернышов Л.Н.
+<assessmentItem number='138' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Вся работа с JQuery ведется с помощью функции… </prompt>
+      <simpleChoice identifier='ChoiceA'>$</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>^</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>%</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>@</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>JQuery</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 139.Чернышов Л.Н.
+<assessmentItem number='139' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>События загрузки страницы JQuery: </prompt>
+      <simpleChoice identifier='ChoiceA'>.ready()</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>.load()</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>.unload()</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>.download</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>.down-load</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 140.Чернышов Л.Н.
+<assessmentItem number='140' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Методы управления анимацией JQuery: </prompt>
+      <simpleChoice identifier='ChoiceA'>animate()</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>stop()</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>delay()</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>destroy()</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>js-animate()</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 141.Чернышов Л.Н.
+<assessmentItem number='141' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Cоздание div-элемента и добавления его в конец элемента с идентификатором content… </prompt>
+      <simpleChoice identifier='ChoiceA'>$(_quot;_lt;div_gt;test_lt;/div_gt;_quot;).appendTo(_quot;#content_quot;)</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>$(_quot;_lt;div_gt;test_lt;/div_gt;_quot;).addToEnd(_quot;content_quot;)</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>$(_quot;_lt;div_gt;test_lt;/div_gt;_quot;).appendTo(#content)</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>$(_lt;div_gt;test_lt;/div_gt;).appendTo(_quot;#content_quot;)</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>$(_quot;_lt;div_gt;test_lt;/div_gt;_quot;).addToEnd(_quot;#content_quot;)</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 142.Чернышов Л.Н.
+<assessmentItem number='142' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Вызов метода ready в jQuery осуществляется… </prompt>
+      <simpleChoice identifier='ChoiceA'>в момент готовности дерева DOM</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>до формирования дерева DOM</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>когда страница сформирована полностью</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>после запуска метода, указанного в  window.onload</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>после запуска метода, указанного в  window.load</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 143.Чернышов Л.Н.
+<assessmentItem number='143' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Метод jQuery для поэлементной обработки набора… </prompt>
+      <simpleChoice identifier='ChoiceA'>each()</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>foreach()</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>Each()</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>ForEach()</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>for()</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 144.Чернышов Л.Н.
+<assessmentItem number='144' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Обработка Ajax-запроса на сервере… </prompt>
+      <simpleChoice identifier='ChoiceA'>ничем не отличается от обработки обычного запроса</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>отличается от обработки обычного запроса</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>требует настройки, связанной с кодировкой</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>требует подключения специализированной библиотеки</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>требует подключения библиотеки, связанной с кодировкой</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 145.Чернышов Л.Н.
+<assessmentItem number='145' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Подключение jQuery к сайту производится… </prompt>
+      <simpleChoice identifier='ChoiceA'>с помощью подключения обычного javascript-кода Визуально выделяется</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>с помощью элемента _lt;jQuery_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>с обязательной ссылкой на размещенный в Интернете файл</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>с обязательным размещением  кода jQuery на сайте</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>с помощью элемента _lt;Jquery_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 146.Чернышов Л.Н.
+<assessmentItem number='146' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Параметры метода animate библиотеки jQuery задают: </prompt>
+      <simpleChoice identifier='ChoiceA'>список CSS-свойств, участвующих в анимации</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>продолжительность выполнения анимации</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>изменение скорости анимации</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>функцию, которая будет вызвана после завершения анимации</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>условия для запуска анимации</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 147.Чернышов Л.Н.
+<assessmentItem number='147' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Вызов функции jQuery для получения div-элемента с индексом i в наборе… </prompt>
+      <simpleChoice identifier='ChoiceA'>$(_quot;div_quot;).eq(i)</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>$(_quot;div_quot;).get(i)</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>$(_quot;div_quot;).div(i)</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>$(_quot;div_quot;).element(i)</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>$(_quot;div_quot;).elem(i)</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 148.Чернышов Л.Н.
+<assessmentItem number='148' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Селектор .class библиотеки jQuery… </prompt>
+      <simpleChoice identifier='ChoiceA'>соответствует всем элементам класса _quot;class_quot;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>соответствует всем классам</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>выводит результат в зависимости от указанных селекторов</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>соответствует всем неактивным элементам</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>соответствует всем активным классам</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 149.Чернышов Л.Н.
+<assessmentItem number='149' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Правильные способы обращения к селектору класса: </prompt>
+      <simpleChoice identifier='ChoiceA'>$('.selector')</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>$(_quot;.someBlock_quot;)</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>$('selector')</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>$('#selector')</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>$(.selector)</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 150.Чернышов Л.Н.
+<assessmentItem number='150' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Селектор :disabled библиотеки jQuery соответствует всем: </prompt>
+      <simpleChoice identifier='ChoiceA'>заблокированным элементам с атрибутом disabled</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>заблокированным элементам без атрибута disabled</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>незаблокированным элементам с атрибутом disabled</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>незаблокированным элементам без атрибута disabled</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>заблокированным элементам с атрибутом enabled</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 151.Чернышов Л.Н.
+<assessmentItem number='151' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Селектор :enabled библиотеки jQuery соответствует всем… </prompt>
+      <simpleChoice identifier='ChoiceA'>активным элементам без атрибута disabled</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>активным элементам без атрибута enabled</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>активным элементам с атрибутом disabled</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>неактивным элементам с атрибутом enabled</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>отмеченным элементам</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 152.Чернышов Л.Н.
+<assessmentItem number='152' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Событие show() библиотеки jQuery… </prompt>
+      <simpleChoice identifier='ChoiceA'>отображает каждый из совпавших элементов набора, если они были скрыты</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>скрывает каждый из совпавших элементов набора, если они были видимыми</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>переключает режим отображения каждого из элементов набора</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>предназначено для создания пользовательской анимации</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+</tests>

@@ -1,0 +1,2978 @@
+
+{
+	"test":
+	{
+	"assessmentItem":
+	[
+
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP для установки связи с MySQL… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "mysql_connect"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "MysqlConnect"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "connect_mysql"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "mysql-connect"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "mysqlconnect"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP для выполнения оператора SQL в MySQL… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "mysql_query"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "mysql_exec"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "MysqlQuery"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "mysql-query"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "mysqlquery"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP для открытия БД в MySQL… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "mysql_select_db"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "mysql-select-db"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "MysqlSelectDB"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "mysql_db_select"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "mysqldb_select"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP для обработки результата оператора SELECT в MySQ… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "mysql_fetch_assoc"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "MysqlFetchAssoc"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "mysql_assoc_fetch"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "mysql-fetch-assoc"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "mysql-fetchassoc"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Переменная в PHP для получения данных, переданных из формы… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "$_POST"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "$POST"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "&_POST"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "POST"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "$_post"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Конструкции включений в PHP: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "require"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "include"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": " require_once"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": " include_once"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "import"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Скалярные типы данных в PHP: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "boolean"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "integer"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "float"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "string"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "decimal"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP для проверки существования переменной… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "empty"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "null"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "isempty"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "isnull"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "is_empty"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Где пятый дистрактор? Наличие знаков препинания в конце дистрактора – это элемент оператора?  Да Корректные операторы создания массива в PHP: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "$ms = array('1' =_gt; _quot;Иванов_quot;, '2' =_gt; _quot;Петров_quot;);"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "$ms = array(_quot;1_quot; =_gt; 'Иванов', _quot;2_quot; =_gt; 'Петров');"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "$ms = array('1' = _quot;Иванов_quot;, '2' = _quot;Петров_quot;);"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "$ms = array('1' -_gt; _quot;Иванов_quot;, '2' -_gt; _quot;Петров_quot;);"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "$ms = array('1' _gt; _quot;Иванов_quot;, '2' _gt; _quot;Петров_quot;);"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Корректный оператор присваивания значения переменной в PHP… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "$name = _quot;Виктор_quot;;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "$n = $m = $p = 3;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "$a = $100;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "%number = 200;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "%hello = 'HelloWorld';"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Объявление константы в PHP… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "define(_quot;pi_quot;, 3.14, true);"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "const(_quot;pi_quot;, 3.14);"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "define(_quot;eval_quot;, 12);"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "define(_quot;pi_quot;, _quot;3.14_quot;);"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "const(_quot;eval_quot;, 12, false);"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Типы данных в PHP: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Object"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Resource"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "NULL"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Double"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Decimal"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "Char"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Результат выполнения оператора _lt;?php echo _quot;round(4.2)=_quot;,round(4.2),_quot;_lt;br_gt;_quot;;?_gt;… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "round(4.2) = 4"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "round(4.2) = 5"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "round(4.2) = 17.64"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "round(4.2) = round(4.2)"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "round(4.2) = 2"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Результат выполнения оператора: echo strlen(_quot;Hello world_quot;);… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "11"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "d"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "world"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "10"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Hello world"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция для удаления элементов массива в PHP… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "unset($massiv[i]);"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "print_r($massiv);"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "sort($massiv);"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "reset($massiv);"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "extract($massiv);"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Массивы в PHP могут содержать ключи типов… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "integer и string одновременно"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "только integer"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "только string"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "integer и float одновременно"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "только float"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Назначение функции mysql_connect… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Закрывает соединение с сервером MySQL"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Открывает соединение с сервером MySQL"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Создаёт базу данных MySQL"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Перемещает внутренний указатель в результате запроса"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Возвращает название базы данных"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "Переключается к указанной базе данных и посылает запрос"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Обязательные параметры для подключения к базе данных MySQL: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "имя хоста"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "имя базы данных"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "заданное вами имя пользователя, либо определенное провайдером"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "пароль"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "название таблицы"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "названия столбцов"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Правильные утверждения относительно отправки и получения переменных с помощью методов Get и Post: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Передача переменных методами Get и Post отличается лишь в отправке данных."
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Метод Get передает имя переменной и ее значение в самой ссылке."
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Метод Post передает имя переменной и ее значение в специальном скрытом запросе."
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Метод Post передает имя переменной и ее значение в самой ссылке."
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Метод Get передает имя переменной и ее значение в специальном скрытом запросе."
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Создатель языка PHP… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Расмус Лердорф"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Джеймс Гослинг"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Хокон Виум Ли"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Тим Бернерс-Ли"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Бил Гейтс"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Результат кода _lt;?php $x=10;$x+=--$x;echo $x;?_gt;… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "21"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "18"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "10"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "-10"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Выдаст ошибку"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Разница между равенством и эквивалентностью в PHP… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Знак равенства проверяет значения операндов и их типы, а знак эквивалентности только их значения."
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Знак эквивалентности работает лишь для строк, а знак равенства применим к любым типам."
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Знак равенства проверяет лишь значения операндов, а знак эквивалентности значения и их типы."
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Между равенством и эквивалентностью никакой разницы нет."
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Знак равенства проверяет лишь типы операндов, а знак эквивалентности значения и их типы."
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Результат скрипта _lt;?php if(null==0)echo _quot;true_quot;;else echo _quot;false_quot;;?_gt;… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "True"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "False"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "NaNe"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Ошибка, поскольку nullнет в php"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Ошибка, поскольку nullнельзя сравнивать с 0"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Псеводтипы в PHP: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "mixed"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "number"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "callback"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "undefined"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "infinity"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceD",
+				"ChoiceE"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функции вхождения подстроки в PHP… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "substr()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "str_repeat()"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "strtok()"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "strpos()"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "stripos()"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Верное утверждение относительно интерфейсов в PHP… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Класс может реализовывать несколько интерфейсов"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Абстрактный класс может реализовывать несколько интерфейсов"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Интерфейс может расширять несколько интерфейсов"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Одноименные методы могут существовать в нескольких интерфейсах   Визуально- самый длинный"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Класс может реализовывать строго один интерфейс"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Результат скрипта _lt;?php $x=5;echo _quot;Переменная $x=5_quot;;?_gt;… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Переменная x=5"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Переменная $x=5"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Ошибка поскольку строки с переменными должны быть всегда в одинарных кавычках"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Переменная 5=5"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Переменная =5"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Вывод всех элементов массива $arr… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "print $arr"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "echo $arr"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Это возможно сделать только через цикл"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "print_r($arr)"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "printr($arr)"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Вывод кода _lt;?php echo _quot;1_quot; + _quot;2_quot;;?_gt;… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "3"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "12"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "32"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Выдаст ошибку"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "-3"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Отсутствующий оператор в PHP… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_gt;="
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "!=="
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "!==="
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "+="
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "++"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Отсутствующий тип данных в PHP… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Объект"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Указатель"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Resource"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "null"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "NaN"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Место выполнения скриптов PHP… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "На клиенте"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "В окне браузера"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "На сервере"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Внутри операционной системы"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "На клиенте и на сервере"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceC",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Теги, которые используются для оформления PHP-кода: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;! !_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;% %_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;?php ?_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;? ?_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;= =_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Комментарии в PHP: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "//  до конца строки"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "/* ... */"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "(* ... *)"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "## до конца строки"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;#  ...  #_gt;"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "-- до конца строки"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Операторы цикла в PHP для просмотра ассоциативного массива $a: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "foreach ($a as $col=_gt;$val ) { ... }"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "foreach ($a as $x=_gt;$y ) { ... }"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "for ($a as $col=_gt;$val ) { ... }"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "while ($a as $col=_gt;$val ) { ... }"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "foreach ($a is $col=_gt;$val ) { ... }"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Ключевое слово в PHP для подключения файла… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "include имя_файла"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "import имя_файла"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "uses имя_файла"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "exclude имя_файла"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "includes имя_файла"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Операторы в PHP для вывода данных: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "echo"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "print"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "write"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "out"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Print"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Оператор в PHP для удаления файла… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "unlink"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "delete"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "delFile"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "FileDelete"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "DeleteFile"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Присвоение переменной а значения 100 в PHP записывается как… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "a=100"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "$a=100"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "$a==100"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "@a=100"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "%a=100"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Результат выполнения PHP кода _lt;?php $a=11; $b=22; $c=33; echo $b=$a=$c ?_gt;… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Parse error"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "22=11=33"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "33"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "22"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "11"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Различия между PHP функциями echo и print… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "print используется как часть выражения, а echo нет"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "echo используется как часть выражения, а print нет"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "echo всегда возвращает единицу, поэтому может использоваться как часть выражения"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "echo и print не отличаются по использованию          Визуально выделяется"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "echo всегда возвращает ноль, поэтому может использоваться как часть выражения"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Знак для обозначения переменных в PHP… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "$"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "#"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "%"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "@"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "%"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Типы данных, поддерживаемые в PHP : ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "boolean"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "object"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "mixed"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "null"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "global"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "PHP-функция для проверки типа выражения или переменной… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "var_dump()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "gettype()"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "gettype()"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "get_type()"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "vardump()"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функции PHP, выводящие строку: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "WriteLine"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "print"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "echo"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "write"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "WriteStr"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функции PHP, разбивающие строку на подстроки: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "explode"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "strtok"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "implode"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "split"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "string_split"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, возвращающая длину строки… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "length"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "strlength"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "strchar"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "strlen"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Length"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, преобразующая строку в массив… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "str_split"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "splitchar"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "split_array"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "str_array"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "strsplit"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, преобразующая заданные символы строки… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "str_char"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "strtr"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "charrepl"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "charrep"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "strstr"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, удаляющая пробелы из начала и конца строки… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "blank_trim"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "blank_del"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "str_trim"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "trim"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "trim_str"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, находящая первое вхождение подстроки в строке… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "strpos()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "strrchr()"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "strstr()"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "substr()"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "str_pos()"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, удаляющая пробелы из конца строки… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "rtrim()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "localeconv()"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "implode()"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "strcoll()"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Rtrim()"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP number_format() – это функция, которая… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Объединяет элементы массива в строку"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Возвращает ключ metaphone для строки"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Возвращает таблицу преобразований"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Форматирует число с разделением групп"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Форматирует группe чисел"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP для создания массива целых чисел из интервала, определяемого верхней и нижней границами… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "array()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "list()"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "range()"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "count()"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "range_array()"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, проверяющая, присутствует ли в массиве заданный элемент… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "in_array()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "array_keys()"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "array_values()"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "array_filter()"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "inarray()"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, удаляющая последний элемент из массива… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "array_push()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "array_shift()"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "array_pad()"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "аrrау_рор()"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "аrrаурор()"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, при каждом вызове которой выполняются две операции: возвращает пару «ключ/значение», на которую ссылается указатель текущей позиции, и перемещает указатель к следующему элементу… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "reset()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "end()"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "each()"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "next()"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "foreach()"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP usort() дает возможность отсортировать массив… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "на основании критерия, определяемого программистом"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "по пользовательскому критерию с сохранением ассоциаций «ключ/значение»"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "по ключам"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "по возрастанию"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "на основании системного критерия"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceE"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP count()… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "возвращает количество элементов в массиве"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "одновременное присваивание значений, извлеченных из массива, сразу нескольким переменным"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "возвращает массив, состоящий из всех значений исходного массива, переданного в качестве параметра"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "перемещает указатель к позиции последнего элемента массива"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "возвращает количество нулевых элементов в массиве"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, извлекающая последний элемент массива… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "array_pad"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "array_product"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "array_pop"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "array_push"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "arraypop"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, извлекающая первый элемент массива… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "array_shift"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "array_slice"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "array_replace"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "array_reverse"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "arrayshift"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, вычисляющая сумму значений массива… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "array_intersect_assoc"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "array_product"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "array_slice"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "array_sum"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "sum_array"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, используемая для выборки всех значений массива… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "array_walk"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "array_values"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "array_udiff"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "array_unshift"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "arrayvalues"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, сортирующая массив по ключам в обратном порядке… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "krsort"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "ksort"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "key_exists"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "extract"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "key_rsort"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, которая является псевдонимом count… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "sort"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "ksort"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "sizeof"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "array_slice"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "size_of"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, сортирующая массив, используя пользовательскую функцию для сравнения элементов с сохранением ключей… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "sort"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "usort"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "uksort"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "uasort"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "asort"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP, сортирующая массив по значениям используя пользовательскую функцию для сравнения элементов… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "sort"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "usort"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "uksort"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "uasort"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "fusort"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceC",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функции PHP для работы с датами и временем: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "checkdate"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "checktime"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "date_sunrise"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "date_sunset"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "check_time"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функции PHP для созданиям массива: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "array()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "list()"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "range()"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "array_chunk()"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "array_create()"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP getdate([int timestamp]) возвращает… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "строку, содуржащую информацию о дате"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "ассоциативный массив, содержащий информацию о дате"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "объект типа date, содержащий информацию о дате"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "объекта типа object, содержащий информацию о дате"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "ассоциативный массив, содержащий информацию о времени"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP echo date(_quot;M-d-Y_quot;, mktime(0, 0, 0, 12, 32, 1997)) вернет… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_quot;Dec-32-1997_quot;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_quot;Dec-31-1997_quot;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_quot;Jan-01-1998_quot;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Код с ошибкой"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_quot;Dec-12-1997_quot;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция PHP echo date(_quot;M-d-Y_quot;, mktime(0, 0, 0, 3, 0, 2000)) вернет… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_quot;Mar-00-2000_quot;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_quot;Feb-29-2000_quot;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_quot;Mar-01-2000_quot;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Код с ошибкой"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_quot;Mart-29-2000_quot;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "PHP является… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "слабо типизированным языком"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "сильно типизированным языком"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "нетипизированным языком"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "языком с «утиной» типизацией"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "языком со строгой типизацией"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Функция создания папки в PHP… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "mkdir()"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "makedir()"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "createdir()"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "set_dir()"
+	}					
+		]
+	}
+	}
+	} 
+	]
+	}
+}

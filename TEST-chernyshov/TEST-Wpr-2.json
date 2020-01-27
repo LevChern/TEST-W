@@ -1,0 +1,2191 @@
+
+{
+	"test":
+	{
+	"assessmentItem":
+	[
+
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Части, из которых состоит документ в стандарте HTML 4.0: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "строка, содержащая информацию о версии HTML"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "раздел заголовка"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "тело с содержимым документа"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "заключительная часть"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "описательная часть"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Атрибут элемента META, который серверы HTTP используют для сбора информации для заголовков сообщений ответов HTTP… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "http-equiv"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "http-eqiv"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "name"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "content"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "scheme"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Теги HTML5 для загрузки медиафайлов: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;audio_gt;_lt;source src=_quot;URL_quot;_gt;_lt;/audio_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;video_gt;_lt;source src=_quot;video/duel.mp4_quot;_gt;_lt;/video_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;source src=_quot;video/duel.ogv_quot; type='video/ogg; codecs=_quot;theora, vorbis_quot;'_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;a href=_quot;video/duel.mp4_quot;_gt;_lt;/a_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;a href  video=_quot;duel.mp4_quot;_gt;_lt;/a_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Новые семантические теги в HTML5: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;article_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;section_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;header_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;footer_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;select_gt;"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "_lt;abbr_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Атрибут, отвечающий за расстояние между ячейками в таблице в HTML… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "cellpadding"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "cellsapsing"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "cellspacing"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "cols"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "frame"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "rulles"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Атрибут для получения курсивного текста в HTML… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "normal"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "cursiv"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "italic"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "oblique"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "inherit"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "bold"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Эффект HTML-кода _lt;font color=_quot;red_quot; face=_quot;Arial_quot;_gt;Н_lt;/font_gt;а траве дрова… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Первая буква предложения в шрифте Arial выделяется красным цветом"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Предложение в шрифте Arial выделяется красным цветом"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Первая буква предложения в шрифте Red выделяется красным цветом"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Первое слово в шрифте Arial не выделяется никаким цветом"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Предложение в шрифте Arial выделяется бoрдовым цветом"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Правильные фрагменты HTML-кода для создания списка определений в HTML: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;dl_gt;_lt;dt_gt;Термин 1_lt;/dt_gt;_lt;dd_gt;Определение 1_lt;/dd_gt;_lt;dt_gt;Термин 2_lt;/dt_gt;_lt;dd_gt;Определение 2_lt;/dd_gt;_lt;/dl_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;dl_gt;_lt;dt_gt;Термин 1_lt;dd_gt;Определение 1_lt;dt_gt;Термин 2_lt;dd_gt;Определение 2_lt;/dl_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;dt_gt;_lt;dl_gt;Термин 1_lt;/dl_gt;_lt;dd_gt;Определение 1_lt;/dd_gt;_lt;dl_gt;Термин 2_lt;/dl_gt;_lt;dd_gt;Определение 2_lt;/dd_gt;_lt;/dt_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;dd_gt;_lt;dt_gt;Термин 1_lt;/dt_gt;_lt;dl_gt;Определение 1_lt;/dl_gt;_lt;dt_gt;Термин 2_lt;/dt_gt;_lt;dl_gt;Определение 2_lt;/dl_gt;_lt;/dd_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;do_gt;_lt;dt_gt;Термин 1_lt;/dt_gt;_lt;dl_gt;Определение 1_lt;/dl_gt;_lt;dt_gt;Термин 2_lt;/dt_gt;_lt;dl_gt;Определение 2_lt;/dl_gt;_lt;/do_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC",
+				"ChoiceD",
+				"ChoiceE"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Элементы формы в HTML, которые могут быть заданы тегом _lt;input_gt;: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "текстовое поле (text)"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "поле с паролем (password)"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "переключатель (radio)"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "флажок (checkbox)"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "скрытое поле (hidden)"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "кнопка для заполнения формы (value)"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Поле _lt;textarea_gt; позволяет: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "вводить несколько строк текста"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "делать переносы строк, сохраняющиеся при отправке данных на сервер"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "поместить любой текст между тегами _lt;textarea_gt; и _lt;/ textarea_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "вводить только одну строку текста"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "вводить количество строк текста, указанное в атрибуте size"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Правильные способы использование тега input в HTML: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;input type=_quot;text_quot; size=_quot;40_quot;_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;input type=_quot;submit_quot; value=_quot;Отправить_quot;_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;input type=_quot;send_quot; value=_quot;Отправить_quot;_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;input type=_quot;reset_quot; value=_quot;Очистить_quot;_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;input type=_quot;clear_quot; value=_quot;Очистить_quot;_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Тег _lt;legend_gt; применяется для… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "создания заголовка группы элементов формы"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "создания заголовка группы элементов формы, определяемой тегом _lt;fieldset_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "создания группы элементов формы, определяемой тегом _lt;set_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "перехода к группе элементов"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "выравнивания текста внутри формы"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Тег для хранения информации, предназначенной для браузеров и поисковых систем… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;nav_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;meter_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;meta_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;pre_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;s_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Эффект применения тега u во фрагменте HTML _lt;u_gt;Текст_lt;/u_gt;… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "добавляет подчеркивание к тексту"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "устанавливает маркированный список"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "отображает моноширинный текст"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "устанавливает жирное начертание шрифта"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "ничего не меняет"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Способы задания расположения элемента по центру: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;center_gt;текст_lt;/center_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;p align=_quot;center_quot;_gt;текст_lt;/p_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;h1 align=_quot;center_quot;_gt;текст_lt;/h1_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;a href=_quot;URL_quot; type=_quot;center_quot;_gt;текст_lt;/a_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;abbr_gt;текст_lt;/abbr_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Корректные способы задания таблицы в HTML: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;table_gt; _lt;tr_gt; _lt;td_gt;..._lt;/td_gt; _lt;/tr_gt; _lt;/table_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;table  width=_quot;100%_quot; border=_quot;0_quot; cellpadding=_quot;0_quot; cellspacing=_quot;0_quot; bgcolor=_quot;#333333_quot;_gt;_lt;tr_gt;_lt;td_gt;…_lt;/td_gt;_lt;/tr_gt;_lt;/table_gt;_lt;/td_gt;_lt;/tr_gt;_lt;/table_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;table_gt; _lt;th_gt; … _lt;/th_gt; _lt;/table_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;table_gt; _lt;td_gt;_lt;tr_gt;..._lt;/td_gt; _lt;/tr_gt; _lt;/table_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;table_gt; _lt;tm_gt;_lt;tr_gt;..._lt;/td_gt; _lt;/tm_gt; _lt;table_gt;"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "_lt;table_gt; _lt;tn_gt;_lt;tr_gt;..._lt;/td_gt; _lt;/tr_gt; _lt;table_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Корректно заданный нумерованный список… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;ol_gt;_lt;li_gt; элемент_lt;/li_gt; _lt;li_gt;элемент_lt;/li_gt;_lt;/ol_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;ul_gt;_lt;li_gt; элемент_lt;/li_gt; _lt;li_gt;элемент_lt;/li_gt;_lt;/ul_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;li_gt;_lt;ol_gt; элемент_lt;/li_gt; _lt;li_gt;элемент_lt;/li_gt;_lt;/ol_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;li_gt;_lt;ul_gt; элемент_lt;/li_gt; _lt;li_gt;элемент_lt;/li_gt;_lt;/ul_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;li_gt;_lt;ul_gt; элемент_lt;/ul_gt; _lt;ul_gt;элемент_lt;/ul_gt;_lt;/li_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Корректно заданный маркированный список… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;ul_gt;_lt;li_gt; элемент_lt;/li_gt; _lt;li_gt;элемент_lt;/li_gt;_lt;/ul_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;ol_gt;_lt;li_gt; элемент_lt;/li_gt; _lt;li_gt;элемент_lt;/li_gt;_lt;/ol_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;li_gt;_lt;ol_gt; элемент_lt;/li_gt; _lt;li_gt;элемент_lt;/li_gt;_lt;/ol_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;li_gt;_lt;ul_gt; элемент_lt;/li_gt; _lt;li_gt;элемент_lt;/li_gt;_lt;/ul_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;li_gt;_lt;ul_gt; элемент_lt;/ul_gt; _lt;ul_gt;элемент_lt;/ul_gt;_lt;/li_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC",
+				"ChoiceD",
+				"ChoiceE"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Возможные атрибуты тегов в языке HTML: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "id"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "class"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "style"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "title"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "dir"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "context"
+	},
+	{
+		"_identifier": "ChoiceG",
+		"__text": "onload"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "События тегов в языке HTML: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "context"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "onload"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "ondblclick"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "onfocus"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "lang"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "hidden"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Событие onsubmit в языке HTML возникает при… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "отправке формы по специальной кнопке"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "выделении текста с помощью мыши или клавиатуры"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "получении элементом фокуса"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "изменении значения элемента формы, вроде текстового поля или списка"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "потере элемента фокуса"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Описание DOCTYPE в начале документа влияет на: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "внешний валидатор при проверке соответствия стандарту"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "отображение, работу CSS-свойств"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "наличие и отсутствие некоторых свойств в DOM"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "особенности работы XmlHttpRequest"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "особенности работы браузера"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Несуществующий Тег HTML… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;span_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;adress_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;list_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;ol_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;ul_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Введите неправильный дистрактор строчными буквами из какого-нибудь имеющегося неправильного. Элементы языка HTML для идентификации свойств документа и назначения им значений: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "META"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "meta"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "DOC"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "PROP"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "TABLE"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "doc"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Атрибут элемента META для задания кодировки символов HTML-документа… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "htpp-equiv"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "charset"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "encoding"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "scheme"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "coding"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Введите неправильный дистрактор строчными буквами из какого-нибудь имеющегося неправильного. Элементы языка HTML, в котором задаются ключевые слова, используемые поисковыми машинами для улучшения результатов поиска: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "META"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "meta"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "KEYS"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "WORD"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "INFO"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "word"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Элемент языка HTML для отправки данных формы на сервер… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;input type=_quot;submit_quot; ..."
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;button type=_quot;submit_quot; ..."
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;input type=_quot;server_quot; ..."
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;button type=_quot;server_quot; ..."
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;input type=_quot;sabmit_quot; ..."
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Элементы языка HTML, содержащие программу на языке JavaScript: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;SCRIPT_gt;..."
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;SCRIPT language='JavaScript'_gt;..."
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;script_gt; ..."
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;JavaScript_gt;..."
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;javascript_gt;..."
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceE"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Возможные значения атрибута TYPE элемента INPUT: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "TEXT"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "CHECKBOX"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "PASWORD"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "COLOR"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "NUMBER"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceE"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Атрибуты элемента INPUT для указания вызова функции по щелчку мыши: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "onclick"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "on-click"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "on_click"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "onclik"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Onclick"
+	},
+	{
+		"_identifier": "ChoiceF",
+		"__text": "On-Click"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Возможные значения атрибута METHOD элемента FORM: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "POST"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "GET"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "PUT"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "SET"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "REQUESTREQUEST"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Атрибут элемента FORM для указания агента для обработки формы… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "ACTION"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "AGENT"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "ADRESS"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "METHOD"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "METOD"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Вид данных, передаваемых по методу GET из формы c элементами X и Y… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "?x=0&y=1"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": ":x=0%y=1"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "%x=0&y=1"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "&x=0?y=1"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "x=0?y=1"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Пара элементов HTML для создания элемента выбора на форме… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "SELECT и OPTION"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "SELECT и CASE"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "SWITСH и CASE"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "SWITСH и OPTION"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "SELECT и INPUT"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceA"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Элемент HTML, использующийся в форме для ввода многострочного текста… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "TEXTAREA"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "TEXT"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "INPUT с атрибутом MULTILINE"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "TEXTBOX"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "INPUTBOX"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Элементы HTML, использующиеся в форме для создания кнопки: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "BUTTON"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "INPUT с TYPE=button"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "BATTON"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "BUTTON c  TYPE=input"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "INPUT с TYPE=checkbox"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Элементы HTML, использующиеся для создания списков: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "UL"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "OL"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "LI"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "DL"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "LIST"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "HTML – это: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Язык разметки"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Язык разметки гипертекста"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Язык программирования"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Серверный компонент"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Таблица стилей"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Международный стандарт, которому соответствует язык HTML… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "ISO  9001"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "ISO  9606"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "ISO 8879"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "ISO 9000"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "ISO 9079"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceC"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "XHTML является приложением… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "XSLT"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "XLS"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "XML"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "HTML"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "TML"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceB"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Автор HTML… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "Билл Гейтс"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "Тим Бернерс-Ли"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "Хикмет Темель"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "Фриц Морген"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "Андерс Хейлсберг"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceB",
+				"ChoiceC",
+				"ChoiceE"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Расширения документов, содержащих разметку на языке HTML: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": ".css"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": ".html"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": ".htm"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": ".txt"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": ".HTM"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceE"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Атрибут, определяющий внешнюю ссылку HTML… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "ref"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "reference"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "outref"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "hiperref"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "href"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceE"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Обозначение закрывающего тега (на примере html) … ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "/(html)"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;/htm_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "/html"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "/_lt;html_gt;/"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;/html_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceD"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Основные теги языка HTML, определяющие структуру: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;html_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;head_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;meta_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;body_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;script_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+			
+				"value":"ChoiceD"
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "single"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Вариант DOCTYPE, использующийся в HTML 5… ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;DOCTYPE HTML_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;!DOCTYPE HTML PUBLIC  «…» «http://…»_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;!DOCTYPE HTML PUBLIC   «http://…»_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;!DOCTYPE HTML_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;!DOCTYPE HTM_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceC",
+				"ChoiceE"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Теги, одновременно открывающие и закрывающие: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;br /_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;/table_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;hr /_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;/p_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;p_gt;_lt;/p_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceB",
+				"ChoiceE"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Шестнадцатиричные коды белого цвета в HTML: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "#00ff00"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "#ffffff"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "#000000"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "#ff0000"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "#fff"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Атрибуты, использующиеся в теге _lt;table_gt;: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "cellspasing"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "frame"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "width"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "title"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "action"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Теги, использующиеся только для выделения фрагмента HTML-кода с определенными свойствами: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "_lt;div_gt;"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "_lt;span_gt;"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "_lt;title_gt;"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "_lt;meta_gt;"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "_lt;head_gt;"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceA",
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Ключевые слова метатега для получения данных из HTML-файл: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "htpp-equiv"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "name"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "content"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "scheme"
+	},
+	{
+		"_identifier": "ChoiceE",
+		"__text": "method"
+	}					
+		]
+	}
+	}
+	},
+	{
+		"responseDeclaration": {
+			"correctResponse": {
+
+				"value":[
+				"ChoiceB",
+				"ChoiceC"					
+				]
+
+			},
+		"_identifier": "RESPONSE",
+		"_cardinality": "multiple"
+		},
+		"itemBody": {
+		"choiceInteraction": {
+		"prompt": "Атрибуты, определяющие событие мыши: ",
+		"simpleChoice": [
+
+	{
+		"_identifier": "ChoiceA",
+		"__text": "onmousescroll"
+	},
+	{
+		"_identifier": "ChoiceB",
+		"__text": "onclick"
+	},
+	{
+		"_identifier": "ChoiceC",
+		"__text": "onmouseover"
+	},
+	{
+		"_identifier": "ChoiceD",
+		"__text": "oneyup"
+	}					
+		]
+	}
+	}
+	} 
+	]
+	}
+}

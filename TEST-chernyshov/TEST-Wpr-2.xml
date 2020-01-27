@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tests tema='TEST-chernyshov/TEST-Wpr-2'>
+Задание 201.Чернышов Л.Н.
+<assessmentItem number='201' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Части, из которых состоит документ в стандарте HTML 4.0: </prompt>
+      <simpleChoice identifier='ChoiceA'>строка, содержащая информацию о версии HTML</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>раздел заголовка</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>тело с содержимым документа</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>заключительная часть</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>описательная часть</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 202.Чернышов Л.Н.
+<assessmentItem number='202' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Атрибут элемента META, который серверы HTTP используют для сбора информации для заголовков сообщений ответов HTTP… </prompt>
+      <simpleChoice identifier='ChoiceA'>http-equiv</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>http-eqiv</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>name</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>content</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>scheme</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 203.Чернышов Л.Н.
+<assessmentItem number='203' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Теги HTML5 для загрузки медиафайлов: </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;audio_gt;_lt;source src=_quot;URL_quot;_gt;_lt;/audio_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;video_gt;_lt;source src=_quot;video/duel.mp4_quot;_gt;_lt;/video_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;source src=_quot;video/duel.ogv_quot; type='video/ogg; codecs=_quot;theora, vorbis_quot;'_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;a href=_quot;video/duel.mp4_quot;_gt;_lt;/a_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;a href  video=_quot;duel.mp4_quot;_gt;_lt;/a_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 204.Чернышов Л.Н.
+<assessmentItem number='204' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Новые семантические теги в HTML5: </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;article_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;section_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;header_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;footer_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;select_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceF'>_lt;abbr_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 205.Чернышов Л.Н.
+<assessmentItem number='205' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Атрибут, отвечающий за расстояние между ячейками в таблице в HTML… </prompt>
+      <simpleChoice identifier='ChoiceA'>cellpadding</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>cellsapsing</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>cellspacing</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>cols</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>frame</simpleChoice>
+      <simpleChoice identifier='ChoiceF'>rulles</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 206.Чернышов Л.Н.
+<assessmentItem number='206' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Атрибут для получения курсивного текста в HTML… </prompt>
+      <simpleChoice identifier='ChoiceA'>normal</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>cursiv</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>italic</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>oblique</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>inherit</simpleChoice>
+      <simpleChoice identifier='ChoiceF'>bold</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 207.Чернышов Л.Н.
+<assessmentItem number='207' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Эффект HTML-кода _lt;font color=_quot;red_quot; face=_quot;Arial_quot;_gt;Н_lt;/font_gt;а траве дрова… </prompt>
+      <simpleChoice identifier='ChoiceA'>Первая буква предложения в шрифте Arial выделяется красным цветом</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Предложение в шрифте Arial выделяется красным цветом</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>Первая буква предложения в шрифте Red выделяется красным цветом</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Первое слово в шрифте Arial не выделяется никаким цветом</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Предложение в шрифте Arial выделяется бoрдовым цветом</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 208.Чернышов Л.Н.
+<assessmentItem number='208' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Правильные фрагменты HTML-кода для создания списка определений в HTML: </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;dl_gt;_lt;dt_gt;Термин 1_lt;/dt_gt;_lt;dd_gt;Определение 1_lt;/dd_gt;_lt;dt_gt;Термин 2_lt;/dt_gt;_lt;dd_gt;Определение 2_lt;/dd_gt;_lt;/dl_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;dl_gt;_lt;dt_gt;Термин 1_lt;dd_gt;Определение 1_lt;dt_gt;Термин 2_lt;dd_gt;Определение 2_lt;/dl_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;dt_gt;_lt;dl_gt;Термин 1_lt;/dl_gt;_lt;dd_gt;Определение 1_lt;/dd_gt;_lt;dl_gt;Термин 2_lt;/dl_gt;_lt;dd_gt;Определение 2_lt;/dd_gt;_lt;/dt_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;dd_gt;_lt;dt_gt;Термин 1_lt;/dt_gt;_lt;dl_gt;Определение 1_lt;/dl_gt;_lt;dt_gt;Термин 2_lt;/dt_gt;_lt;dl_gt;Определение 2_lt;/dl_gt;_lt;/dd_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;do_gt;_lt;dt_gt;Термин 1_lt;/dt_gt;_lt;dl_gt;Определение 1_lt;/dl_gt;_lt;dt_gt;Термин 2_lt;/dt_gt;_lt;dl_gt;Определение 2_lt;/dl_gt;_lt;/do_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 209.Чернышов Л.Н.
+<assessmentItem number='209' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+      <value>ChoiceD</value>
+      <value>ChoiceE</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Элементы формы в HTML, которые могут быть заданы тегом _lt;input_gt;: </prompt>
+      <simpleChoice identifier='ChoiceA'>текстовое поле (text)</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>поле с паролем (password)</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>переключатель (radio)</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>флажок (checkbox)</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>скрытое поле (hidden)</simpleChoice>
+      <simpleChoice identifier='ChoiceF'>кнопка для заполнения формы (value)</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 210.Чернышов Л.Н.
+<assessmentItem number='210' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Поле _lt;textarea_gt; позволяет: </prompt>
+      <simpleChoice identifier='ChoiceA'>вводить несколько строк текста</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>делать переносы строк, сохраняющиеся при отправке данных на сервер</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>поместить любой текст между тегами _lt;textarea_gt; и _lt;/ textarea_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>вводить только одну строку текста</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>вводить количество строк текста, указанное в атрибуте size</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 211.Чернышов Л.Н.
+<assessmentItem number='211' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Правильные способы использование тега input в HTML: </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;input type=_quot;text_quot; size=_quot;40_quot;_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;input type=_quot;submit_quot; value=_quot;Отправить_quot;_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;input type=_quot;send_quot; value=_quot;Отправить_quot;_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;input type=_quot;reset_quot; value=_quot;Очистить_quot;_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;input type=_quot;clear_quot; value=_quot;Очистить_quot;_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 212.Чернышов Л.Н.
+<assessmentItem number='212' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Тег _lt;legend_gt; применяется для… </prompt>
+      <simpleChoice identifier='ChoiceA'>создания заголовка группы элементов формы</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>создания заголовка группы элементов формы, определяемой тегом _lt;fieldset_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>создания группы элементов формы, определяемой тегом _lt;set_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>перехода к группе элементов</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>выравнивания текста внутри формы</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 213.Чернышов Л.Н.
+<assessmentItem number='213' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Тег для хранения информации, предназначенной для браузеров и поисковых систем… </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;nav_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;meter_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;meta_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;pre_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;s_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 214.Чернышов Л.Н.
+<assessmentItem number='214' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Эффект применения тега u во фрагменте HTML _lt;u_gt;Текст_lt;/u_gt;… </prompt>
+      <simpleChoice identifier='ChoiceA'>добавляет подчеркивание к тексту</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>устанавливает маркированный список</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>отображает моноширинный текст</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>устанавливает жирное начертание шрифта</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>ничего не меняет</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 215.Чернышов Л.Н.
+<assessmentItem number='215' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Способы задания расположения элемента по центру: </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;center_gt;текст_lt;/center_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;p align=_quot;center_quot;_gt;текст_lt;/p_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;h1 align=_quot;center_quot;_gt;текст_lt;/h1_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;a href=_quot;URL_quot; type=_quot;center_quot;_gt;текст_lt;/a_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;abbr_gt;текст_lt;/abbr_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 216.Чернышов Л.Н.
+<assessmentItem number='216' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Корректные способы задания таблицы в HTML: </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;table_gt; _lt;tr_gt; _lt;td_gt;..._lt;/td_gt; _lt;/tr_gt; _lt;/table_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;table  width=_quot;100%_quot; border=_quot;0_quot; cellpadding=_quot;0_quot; cellspacing=_quot;0_quot; bgcolor=_quot;#333333_quot;_gt;_lt;tr_gt;_lt;td_gt;…_lt;/td_gt;_lt;/tr_gt;_lt;/table_gt;_lt;/td_gt;_lt;/tr_gt;_lt;/table_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;table_gt; _lt;th_gt; … _lt;/th_gt; _lt;/table_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;table_gt; _lt;td_gt;_lt;tr_gt;..._lt;/td_gt; _lt;/tr_gt; _lt;/table_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;table_gt; _lt;tm_gt;_lt;tr_gt;..._lt;/td_gt; _lt;/tm_gt; _lt;table_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceF'>_lt;table_gt; _lt;tn_gt;_lt;tr_gt;..._lt;/td_gt; _lt;/tr_gt; _lt;table_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 217.Чернышов Л.Н.
+<assessmentItem number='217' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Корректно заданный нумерованный список… </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;ol_gt;_lt;li_gt; элемент_lt;/li_gt; _lt;li_gt;элемент_lt;/li_gt;_lt;/ol_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;ul_gt;_lt;li_gt; элемент_lt;/li_gt; _lt;li_gt;элемент_lt;/li_gt;_lt;/ul_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;li_gt;_lt;ol_gt; элемент_lt;/li_gt; _lt;li_gt;элемент_lt;/li_gt;_lt;/ol_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;li_gt;_lt;ul_gt; элемент_lt;/li_gt; _lt;li_gt;элемент_lt;/li_gt;_lt;/ul_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;li_gt;_lt;ul_gt; элемент_lt;/ul_gt; _lt;ul_gt;элемент_lt;/ul_gt;_lt;/li_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 218.Чернышов Л.Н.
+<assessmentItem number='218' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Корректно заданный маркированный список… </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;ul_gt;_lt;li_gt; элемент_lt;/li_gt; _lt;li_gt;элемент_lt;/li_gt;_lt;/ul_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;ol_gt;_lt;li_gt; элемент_lt;/li_gt; _lt;li_gt;элемент_lt;/li_gt;_lt;/ol_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;li_gt;_lt;ol_gt; элемент_lt;/li_gt; _lt;li_gt;элемент_lt;/li_gt;_lt;/ol_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;li_gt;_lt;ul_gt; элемент_lt;/li_gt; _lt;li_gt;элемент_lt;/li_gt;_lt;/ul_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;li_gt;_lt;ul_gt; элемент_lt;/ul_gt; _lt;ul_gt;элемент_lt;/ul_gt;_lt;/li_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 219.Чернышов Л.Н.
+<assessmentItem number='219' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+      <value>ChoiceD</value>
+      <value>ChoiceE</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Возможные атрибуты тегов в языке HTML: </prompt>
+      <simpleChoice identifier='ChoiceA'>id</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>class</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>style</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>title</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>dir</simpleChoice>
+      <simpleChoice identifier='ChoiceF'>context</simpleChoice>
+      <simpleChoice identifier='ChoiceG'>onload</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 220.Чернышов Л.Н.
+<assessmentItem number='220' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>События тегов в языке HTML: </prompt>
+      <simpleChoice identifier='ChoiceA'>context</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>onload</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>ondblclick</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>onfocus</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>lang</simpleChoice>
+      <simpleChoice identifier='ChoiceF'>hidden</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 221.Чернышов Л.Н.
+<assessmentItem number='221' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Событие onsubmit в языке HTML возникает при… </prompt>
+      <simpleChoice identifier='ChoiceA'>отправке формы по специальной кнопке</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>выделении текста с помощью мыши или клавиатуры</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>получении элементом фокуса</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>изменении значения элемента формы, вроде текстового поля или списка</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>потере элемента фокуса</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 222.Чернышов Л.Н.
+<assessmentItem number='222' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Описание DOCTYPE в начале документа влияет на: </prompt>
+      <simpleChoice identifier='ChoiceA'>внешний валидатор при проверке соответствия стандарту</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>отображение, работу CSS-свойств</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>наличие и отсутствие некоторых свойств в DOM</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>особенности работы XmlHttpRequest</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>особенности работы браузера</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 223.Чернышов Л.Н.
+<assessmentItem number='223' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Несуществующий Тег HTML… </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;span_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;adress_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;list_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;ol_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;ul_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 224.Чернышов Л.Н.
+<assessmentItem number='224' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Введите неправильный дистрактор строчными буквами из какого-нибудь имеющегося неправильного. Элементы языка HTML для идентификации свойств документа и назначения им значений: </prompt>
+      <simpleChoice identifier='ChoiceA'>META</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>meta</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>DOC</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>PROP</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>TABLE</simpleChoice>
+      <simpleChoice identifier='ChoiceF'>doc</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 225.Чернышов Л.Н.
+<assessmentItem number='225' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Атрибут элемента META для задания кодировки символов HTML-документа… </prompt>
+      <simpleChoice identifier='ChoiceA'>htpp-equiv</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>charset</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>encoding</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>scheme</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>coding</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 226.Чернышов Л.Н.
+<assessmentItem number='226' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Введите неправильный дистрактор строчными буквами из какого-нибудь имеющегося неправильного. Элементы языка HTML, в котором задаются ключевые слова, используемые поисковыми машинами для улучшения результатов поиска: </prompt>
+      <simpleChoice identifier='ChoiceA'>META</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>meta</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>KEYS</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>WORD</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>INFO</simpleChoice>
+      <simpleChoice identifier='ChoiceF'>word</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 227.Чернышов Л.Н.
+<assessmentItem number='227' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Элемент языка HTML для отправки данных формы на сервер… </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;input type=_quot;submit_quot; ...</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;button type=_quot;submit_quot; ...</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;input type=_quot;server_quot; ...</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;button type=_quot;server_quot; ...</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;input type=_quot;sabmit_quot; ...</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 228.Чернышов Л.Н.
+<assessmentItem number='228' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Элементы языка HTML, содержащие программу на языке JavaScript: </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;SCRIPT_gt;...</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;SCRIPT language='JavaScript'_gt;...</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;script_gt; ...</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;JavaScript_gt;...</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;javascript_gt;...</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 229.Чернышов Л.Н.
+<assessmentItem number='229' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceE</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Возможные значения атрибута TYPE элемента INPUT: </prompt>
+      <simpleChoice identifier='ChoiceA'>TEXT</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>CHECKBOX</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>PASWORD</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>COLOR</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>NUMBER</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 230.Чернышов Л.Н.
+<assessmentItem number='230' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceE</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Атрибуты элемента INPUT для указания вызова функции по щелчку мыши: </prompt>
+      <simpleChoice identifier='ChoiceA'>onclick</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>on-click</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>on_click</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>onclik</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Onclick</simpleChoice>
+      <simpleChoice identifier='ChoiceF'>On-Click</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 231.Чернышов Л.Н.
+<assessmentItem number='231' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Возможные значения атрибута METHOD элемента FORM: </prompt>
+      <simpleChoice identifier='ChoiceA'>POST</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>GET</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>PUT</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>SET</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>REQUESTREQUEST</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 232.Чернышов Л.Н.
+<assessmentItem number='232' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Атрибут элемента FORM для указания агента для обработки формы… </prompt>
+      <simpleChoice identifier='ChoiceA'>ACTION</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>AGENT</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>ADRESS</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>METHOD</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>METOD</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 233.Чернышов Л.Н.
+<assessmentItem number='233' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Вид данных, передаваемых по методу GET из формы c элементами X и Y… </prompt>
+      <simpleChoice identifier='ChoiceA'>?x=0&amp;y=1</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>:x=0%y=1</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>%x=0&amp;y=1</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>&amp;x=0?y=1</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>x=0?y=1</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 234.Чернышов Л.Н.
+<assessmentItem number='234' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Пара элементов HTML для создания элемента выбора на форме… </prompt>
+      <simpleChoice identifier='ChoiceA'>SELECT и OPTION</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>SELECT и CASE</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>SWITСH и CASE</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>SWITСH и OPTION</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>SELECT и INPUT</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 235.Чернышов Л.Н.
+<assessmentItem number='235' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceA</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Элемент HTML, использующийся в форме для ввода многострочного текста… </prompt>
+      <simpleChoice identifier='ChoiceA'>TEXTAREA</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>TEXT</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>INPUT с атрибутом MULTILINE</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>TEXTBOX</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>INPUTBOX</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 236.Чернышов Л.Н.
+<assessmentItem number='236' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Элементы HTML, использующиеся в форме для создания кнопки: </prompt>
+      <simpleChoice identifier='ChoiceA'>BUTTON</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>INPUT с TYPE=button</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>BATTON</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>BUTTON c  TYPE=input</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>INPUT с TYPE=checkbox</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 237.Чернышов Л.Н.
+<assessmentItem number='237' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Элементы HTML, использующиеся для создания списков: </prompt>
+      <simpleChoice identifier='ChoiceA'>UL</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>OL</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>LI</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>DL</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>LIST</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 238.Чернышов Л.Н.
+<assessmentItem number='238' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>HTML – это: </prompt>
+      <simpleChoice identifier='ChoiceA'>Язык разметки</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Язык разметки гипертекста</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>Язык программирования</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Серверный компонент</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Таблица стилей</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 239.Чернышов Л.Н.
+<assessmentItem number='239' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Международный стандарт, которому соответствует язык HTML… </prompt>
+      <simpleChoice identifier='ChoiceA'>ISO  9001</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>ISO  9606</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>ISO 8879</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>ISO 9000</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>ISO 9079</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 240.Чернышов Л.Н.
+<assessmentItem number='240' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>XHTML является приложением… </prompt>
+      <simpleChoice identifier='ChoiceA'>XSLT</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>XLS</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>XML</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>HTML</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>TML</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 241.Чернышов Л.Н.
+<assessmentItem number='241' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Автор HTML… </prompt>
+      <simpleChoice identifier='ChoiceA'>Билл Гейтс</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>Тим Бернерс-Ли</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>Хикмет Темель</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>Фриц Морген</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>Андерс Хейлсберг</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 242.Чернышов Л.Н.
+<assessmentItem number='242' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+      <value>ChoiceE</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Расширения документов, содержащих разметку на языке HTML: </prompt>
+      <simpleChoice identifier='ChoiceA'>.css</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>.html</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>.htm</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>.txt</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>.HTM</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 243.Чернышов Л.Н.
+<assessmentItem number='243' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceE</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Атрибут, определяющий внешнюю ссылку HTML… </prompt>
+      <simpleChoice identifier='ChoiceA'>ref</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>reference</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>outref</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>hiperref</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>href</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 244.Чернышов Л.Н.
+<assessmentItem number='244' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceE</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Обозначение закрывающего тега (на примере html) … </prompt>
+      <simpleChoice identifier='ChoiceA'>/(html)</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;/htm_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>/html</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>/_lt;html_gt;/</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;/html_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 245.Чернышов Л.Н.
+<assessmentItem number='245' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Основные теги языка HTML, определяющие структуру: </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;html_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;head_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;meta_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;body_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;script_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 246.Чернышов Л.Н.
+<assessmentItem number='246' >
+ <responseDeclaration identifier='RESPONSE' cardinality='single'>
+   <correctResponse>
+      <value>ChoiceD</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Вариант DOCTYPE, использующийся в HTML 5… </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;DOCTYPE HTML_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;!DOCTYPE HTML PUBLIC  «…» «http://…»_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;!DOCTYPE HTML PUBLIC   «http://…»_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;!DOCTYPE HTML_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;!DOCTYPE HTM_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 247.Чернышов Л.Н.
+<assessmentItem number='247' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceC</value>
+      <value>ChoiceE</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Теги, одновременно открывающие и закрывающие: </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;br /_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;/table_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;hr /_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;/p_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;p_gt;_lt;/p_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 248.Чернышов Л.Н.
+<assessmentItem number='248' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceB</value>
+      <value>ChoiceE</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Шестнадцатиричные коды белого цвета в HTML: </prompt>
+      <simpleChoice identifier='ChoiceA'>#00ff00</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>#ffffff</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>#000000</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>#ff0000</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>#fff</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 249.Чернышов Л.Н.
+<assessmentItem number='249' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Атрибуты, использующиеся в теге _lt;table_gt;: </prompt>
+      <simpleChoice identifier='ChoiceA'>cellspasing</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>frame</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>width</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>title</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>action</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 250.Чернышов Л.Н.
+<assessmentItem number='250' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Теги, использующиеся только для выделения фрагмента HTML-кода с определенными свойствами: </prompt>
+      <simpleChoice identifier='ChoiceA'>_lt;div_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>_lt;span_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>_lt;title_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>_lt;meta_gt;</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>_lt;head_gt;</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 251.Чернышов Л.Н.
+<assessmentItem number='251' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceA</value>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Ключевые слова метатега для получения данных из HTML-файл: </prompt>
+      <simpleChoice identifier='ChoiceA'>htpp-equiv</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>name</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>content</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>scheme</simpleChoice>
+      <simpleChoice identifier='ChoiceE'>method</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+Задание 252.Чернышов Л.Н.
+<assessmentItem number='252' >
+ <responseDeclaration identifier='RESPONSE' cardinality='multiple'>
+   <correctResponse>
+      <value>ChoiceB</value>
+      <value>ChoiceC</value>
+   </correctResponse>
+ </responseDeclaration>
+ <itemBody>
+   <choiceInteraction>
+      <prompt>Атрибуты, определяющие событие мыши: </prompt>
+      <simpleChoice identifier='ChoiceA'>onmousescroll</simpleChoice>
+      <simpleChoice identifier='ChoiceB'>onclick</simpleChoice>
+      <simpleChoice identifier='ChoiceC'>onmouseover</simpleChoice>
+      <simpleChoice identifier='ChoiceD'>oneyup</simpleChoice>
+   </choiceInteraction>
+ </itemBody>
+</assessmentItem>
+</tests>

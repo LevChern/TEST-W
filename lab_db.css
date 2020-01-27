@@ -1,0 +1,40 @@
+   body {
+	background: url("images.jpg"); 
+	margin-left:30px; margin-right:100px; margin-top:20px;
+   }
+    /*
+    background-color:#E0E0E0;  http://www.wisdomweb.ru/CSS/selector.php */   
+	
+   .sel300  { width: 300px; /* Ширина списка в пикселах */  }
+   .t0  {  /* основная таблица */
+		border-style:solid;	border-color:green;	border-width:1px;
+		border-collapse:collapse;
+   }
+   .td0 {border-style:solid;	border-color:green;	border-width:1px; 
+		padding:10px; background-color:#F0F0F0; 
+		vertical-align:top;}
+		
+   .td2 {border-style:solid;	border-color:green;	border-width:1px; 
+		padding:4px; background-color:#F0F0F0; 
+		vertical-align:top;}
+		
+   .b1 { border-radius: 8px; background: #F0DADA; width:60px }
+   .b2 { border-radius: 8px; background: #F0DADA; width:130px }
+
+		
+   .p0  { letter-spacing:2px; font-weight:bold; font-size:16px;  }
+   .p1  { font-weight:bold; font-size:16px;  }
+   .td5 {border-style:solid;	border-color:green;	border-width:0px; 
+		padding:5px; background-color:#F0F0F0;
+		vertical-align:top;}
+   .td100 {border-style:solid;	border-color:green;	border-width:1px; 
+		padding:10px; background-color:#F0F0F0;
+		vertical-align:top; width:100px;}
+		
+   .t1  { width:320px; padding:6px;   }   /* вложенная таблица */
+   .t2  { padding:2px;   }   /* вложенная таблица */
+   .tw  { background-color:#FFFFFF;   }   /* белая таблица */
+   
+   .b100 { border-radius: 8px; background: #F0DADA; width:100px }
+   .b3 { border-radius: 8px; background: #F0DADA; width:190px }
+   .b4 { border-radius: 8px; background: #F0DADA; width:200px }
